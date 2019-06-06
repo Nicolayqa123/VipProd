@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.vipwriters.Applied.AppliedDetailedOrderViewTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 9.647 s <<< FAILURE! - in com.vipwriters.Applied.AppliedDetailedOrderViewTest
+order(com.vipwriters.Applied.AppliedDetailedOrderViewTest)  Time elapsed: 9.631 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.vipwriters.Applied.AppliedDetailedOrderViewTest.order(AppliedDetailedOrderViewTest.java:17)
+

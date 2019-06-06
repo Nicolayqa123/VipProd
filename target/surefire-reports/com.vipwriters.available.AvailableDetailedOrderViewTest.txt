@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.vipwriters.available.AvailableDetailedOrderViewTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 69.299 s - in com.vipwriters.available.AvailableDetailedOrderViewTest

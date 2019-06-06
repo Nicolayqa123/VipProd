@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.vipwriters.available.AvailableDownloadFilesTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 109.552 s <<< FAILURE! - in com.vipwriters.available.AvailableDownloadFilesTest
+download(com.vipwriters.available.AvailableDownloadFilesTest)  Time elapsed: 109.546 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id="root"]/div/div/div[2]/div[2]/div/table/tbody/tr/td[1]/a
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-6L7S93F', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.5, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 7916, moz:profile: C:\Users\dmytr\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c3bb9e76-949c-4901-8478-afecc84a986a
+*** Element info: {Using=xpath, value=//*[@id="root"]/div/div/div[2]/div[2]/div/table/tbody/tr/td[1]/a}
+	at com.vipwriters.available.AvailableDownloadFilesTest.download(AvailableDownloadFilesTest.java:16)
+

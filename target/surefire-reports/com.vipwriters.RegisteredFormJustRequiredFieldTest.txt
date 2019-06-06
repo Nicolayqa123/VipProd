@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: com.vipwriters.RegisteredFormJustRequiredFieldTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 190.297 s <<< FAILURE! - in com.vipwriters.RegisteredFormJustRequiredFieldTest
+RegisteredFormAll(com.vipwriters.RegisteredFormJustRequiredFieldTest)  Time elapsed: 95.562 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id="signUpWizard"]/div[2]/div/div/div/ul/li[2]/a
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-6L7S93F', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.5, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 16888, moz:profile: C:\Users\dmytr\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2c4c935c-24f5-4722-a1bb-6a6304d9f9b9
+*** Element info: {Using=xpath, value=//*[@id="signUpWizard"]/div[2]/div/div/div/ul/li[2]/a}
+	at com.vipwriters.RegisteredFormJustRequiredFieldTest.RegisteredFormAll(RegisteredFormJustRequiredFieldTest.java:133)
+
+RegisteredFormJustRequiredField1(com.vipwriters.RegisteredFormJustRequiredFieldTest)  Time elapsed: 94.731 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id="signUpWizard"]/div[2]/div/div/div/ul/li[2]/a
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-6L7S93F', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.5, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 18476, moz:profile: C:\Users\dmytr\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6bf98707-90f6-4c9a-a364-7e613f19ec2a
+*** Element info: {Using=xpath, value=//*[@id="signUpWizard"]/div[2]/div/div/div/ul/li[2]/a}
+	at com.vipwriters.RegisteredFormJustRequiredFieldTest.RegisteredFormJustRequiredField1(RegisteredFormJustRequiredFieldTest.java:78)
+

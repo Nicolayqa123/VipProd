@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.vipwriters.Applied.AppliedDownloadFilesTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.576 s <<< FAILURE! - in com.vipwriters.Applied.AppliedDownloadFilesTest
+download(com.vipwriters.Applied.AppliedDownloadFilesTest)  Time elapsed: 10.553 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.vipwriters.Applied.AppliedDownloadFilesTest.download(AppliedDownloadFilesTest.java:15)
+

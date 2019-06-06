@@ -1,0 +1,64 @@
+-------------------------------------------------------------------------------
+Test set: com.vipwriters.MailUSFormTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 558.849 s <<< FAILURE! - in com.vipwriters.MailUSFormTest
+mailUs(com.vipwriters.MailUSFormTest)  Time elapsed: 114.86 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id="root"]/div/div/div[2]/div[2]/div/div/div/select/option[2]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-6L7S93F', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.5, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 19712, moz:profile: C:\Users\dmytr\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 15692689-d8f0-41cf-8f35-a5a9fa79a49b
+*** Element info: {Using=xpath, value=//*[@id="root"]/div/div/div[2]/div[2]/div/div/div/select/option[2]}
+	at com.vipwriters.MailUSFormTest.mailUs(MailUSFormTest.java:19)
+
+mailUsmax(com.vipwriters.MailUSFormTest)  Time elapsed: 109.241 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id="root"]/div/div/div[2]/div[2]/div/div/div/select/option[2]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-6L7S93F', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.5, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 13124, moz:profile: C:\Users\dmytr\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e56c4301-ccd5-42d3-b09c-563f7f23017a
+*** Element info: {Using=xpath, value=//*[@id="root"]/div/div/div[2]/div[2]/div/div/div/select/option[2]}
+	at com.vipwriters.MailUSFormTest.mailUsmax(MailUSFormTest.java:50)
+
+mailUsmin(com.vipwriters.MailUSFormTest)  Time elapsed: 109.528 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id="root"]/div/div/div[2]/div[2]/div/div/div/select/option[2]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-6L7S93F', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.5, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 2332, moz:profile: C:\Users\dmytr\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5b63c7de-e15f-49fb-bdf3-8a16dc725c1f
+*** Element info: {Using=xpath, value=//*[@id="root"]/div/div/div[2]/div[2]/div/div/div/select/option[2]}
+	at com.vipwriters.MailUSFormTest.mailUsmin(MailUSFormTest.java:37)
+
+mailUsOther(com.vipwriters.MailUSFormTest)  Time elapsed: 112.306 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id="root"]/div/div/div[2]/div[2]/div/div/div[1]/select/option[5]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-6L7S93F', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.5, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 20272, moz:profile: C:\Users\dmytr\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6a101d72-38b8-4a04-85ce-b4361ea3c819
+*** Element info: {Using=xpath, value=//*[@id="root"]/div/div/div[2]/div[2]/div/div/div[1]/select/option[5]}
+	at com.vipwriters.MailUSFormTest.mailUsOther(MailUSFormTest.java:81)
+
+mailUsEmptySubject(com.vipwriters.MailUSFormTest)  Time elapsed: 112.912 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id="root"]/div/div/div[2]/div[2]/div/textarea
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-6L7S93F', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.5, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 21116, moz:profile: C:\Users\dmytr\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6e470f89-3bdb-4ebb-8bed-90fba9e4159e
+*** Element info: {Using=xpath, value=//*[@id="root"]/div/div/div[2]/div[2]/div/textarea}
+	at com.vipwriters.MailUSFormTest.mailUsEmptySubject(MailUSFormTest.java:67)
+
