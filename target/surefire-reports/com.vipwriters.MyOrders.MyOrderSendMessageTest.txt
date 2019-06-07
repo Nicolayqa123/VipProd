@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.vipwriters.MyOrders.MyOrderSendMessageTest
--------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 194.142 s - in com.vipwriters.MyOrders.MyOrderSendMessageTest

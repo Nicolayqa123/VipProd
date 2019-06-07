@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.vipwriters.MyOrders.MyOrderDetailedOrderViewTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 58.882 s <<< FAILURE! - in com.vipwriters.MyOrders.MyOrderDetailedOrderViewTest
-orderView(com.vipwriters.MyOrders.MyOrderDetailedOrderViewTest)  Time elapsed: 58.868 s  <<< FAILURE!
-org.junit.ComparisonFailure: expected:<[In progress]> but was:<[Not Confirmed]>
-	at com.vipwriters.MyOrders.MyOrderDetailedOrderViewTest.orderView(MyOrderDetailedOrderViewTest.java:20)
-

@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.vipwriters.Applied.AppliedFilterTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 9.372 s <<< FAILURE! - in com.vipwriters.Applied.AppliedFilterTest
-Filter(com.vipwriters.Applied.AppliedFilterTest)  Time elapsed: 9.354 s  <<< ERROR!
-java.lang.NullPointerException
-	at com.vipwriters.Applied.AppliedFilterTest.Filter(AppliedFilterTest.java:18)
-
