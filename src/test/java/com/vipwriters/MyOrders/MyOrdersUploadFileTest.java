@@ -29,15 +29,15 @@ public class MyOrdersUploadFileTest extends WebDriverSettings {
         WritersLogin();
         TimeUnit.SECONDS.sleep(4);
         MyOrders.myOrders(driver).click();
-        MyOrders.Order10015(driver).click();
+        MyOrders.OrderInProgress(driver).click();
         DetailedOrder.uploadFile(driver).click();
         DetailedOrder.fileRecipientClient(driver).click();
         DetailedOrder.fileTypeAditiMater(driver).click();
         DetailedOrder.drop(driver).click();
         TestFileDrop();
         DetailedOrder.confirm(driver).click();
-        TimeUnit.SECONDS.sleep(10);
-        driver.findElementById("2261").click();
+       // TimeUnit.SECONDS.sleep(10);
+      //  driver.findElementById("2261").click();
      //   driver.findElementByXPath("/html/body/div[2]/div/div[3]/button[1]").click();
       //  assertEquals("File successfully upload!", driver.findElement(By.xpath("//*[@id=\"swal2-title\"]")).getText());
 

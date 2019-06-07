@@ -21,8 +21,8 @@ public class MyOrders {
         element = driver.findElement(By.id("writers-my-orders-amount"));
         return element;
     }
-    public static WebElement Order10015(WebDriver driver){
-        element = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div[1]/table/tbody/tr[1]/td[1]/a"));
+    public static WebElement OrderInProgress(WebDriver driver){
+        element = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div[1]/table/tbody/tr/td[1]/a"));
         return element;
     }
 }

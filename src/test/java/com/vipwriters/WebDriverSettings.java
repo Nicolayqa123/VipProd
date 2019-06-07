@@ -5,22 +5,31 @@ import com.PageWriter.SignUp;
 import com.Screenshot;
 
 import com.SeleniumRunner;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import io.qameta.allure.Allure;
 import io.qameta.allure.Attachment;
 import io.qameta.allure.Step;
 
+import io.qameta.allure.model.TestRunResult;
+import junit.framework.TestResult;
 import org.apache.commons.io.FileUtils;
-import org.junit.After;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Rule;
+import org.junit.*;
 import org.junit.rules.TestRule;
 import org.junit.rules.TestWatcher;
 import org.junit.runner.Description;
 import org.junit.runner.RunWith;
+import org.junit.runner.notification.Failure;
 import org.openqa.selenium.*;
 import org.openqa.selenium.Dimension;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxBinary;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.phantomjs.PhantomJSDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -32,7 +41,10 @@ import java.awt.event.KeyEvent;
 import java.beans.Statement;
 import java.io.File;
 import java.io.IOException;
+import io.qameta.allure.Attachment;
 
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Random;
@@ -40,9 +52,11 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
 
+//@RunWith(SeleniumRunner.class)
+public class WebDriverSettings   {
 
-public class WebDriverSettings  {
-
+   // public PhantomJSDriver driver;
+  // public  RemoteWebDriver driver;
 
     public FirefoxDriver driver;
 
@@ -58,8 +72,16 @@ public class WebDriverSettings  {
     // String mail = "nicolayqa@gmail.com";
     // String pass = "nicolayqa";
 
-    public String mail = "gennadii2@test.com";
+
+    public String mailPro = "Kallyan2@ya.ru";
+    public String passPro = "123456";
+    public String mail = "Kallyan2@ya.ru"; // Nicolayqa@gmail.com
     public String pass = "123456";
+    public String Writer_StageUrl = "https://writer.urgentpapers.org";
+    public String Writer_ProdUrl = "https://vip-writers.com";
+    public String ProPapers_StageUrl = "https://client.urgentpapers.org/";
+    public String ProPapers_ProdUrl = "https://pro-papers.com";
+
 
 
 
@@ -115,71 +137,61 @@ public class WebDriverSettings  {
 
 
 
-
-
-
-        @Before
-        public void setup() {
-
-            System.setProperty("webdriver.gecko.driver", "C://Programms/geckodriver.exe");
-            driver = new FirefoxDriver();
-            System.setProperty("webdriver.chrome.driver", "C://Programms/chromedriver.exe");
-            //  driver = new ChromeDriver();
-            System.setProperty("webdriver.ie.driver", "C://Programms/IEDriverServer.exe");
-            // driver = new InternetExplorerDriver();
-            driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-            driver.manage().timeouts().setScriptTimeout(20, TimeUnit.SECONDS);
-            driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
-            driver.manage().window().setSize(new Dimension(1500, 810));
-        }
-
-        @After
-        public void close() throws Exception {
-            String newAutoTest = "newAutoTest" + x;
-            File screenshot = ((TakesScreenshot) driver).
-                    getScreenshotAs(OutputType.FILE);
-            String path = "C:\\Programms\\PNG\\" + screenshot.getName();
-            FileUtils.copyFile(screenshot, new File(path));
-            driver.quit();
-        }
-
-
-
-
-
-
-
-
-   /* @AfterMethod
-    public static void   screenshot(ITestResult result) throws Exception {
-        if (!result.isSuccess()) {
-            try {
-                WebDriver returned = new Augmenter().augment(driver);
-                if (returned != null) {
-                    File f = ((TakesScreenshot) returned)
-                            .getScreenshotAs(OutputType.FILE);
-                    try {
-                        FileUtils.copyFile(f, new File("C:\\Test_results\\"
-                                + result.getName() + ".jpg"));
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
-                }
-            } catch (ScreenshotException se) {
-                se.printStackTrace();
-            }
-        }
+   /* private static WebDriver getFirefoxDriver(){
+        System.setProperty("webdriver.gecko.driver", "//src/main/resources/geckodriver");
+        return new FirefoxDriver();
     }*/
 
 
 
 
+    @Rule
+    public TestWatcher watcher = new TestWatcher() {
+
+        @Override
+        protected void starting(Description description) {
+            System.setProperty("webdriver.gecko.driver", "driver/geckodriver.exe");
+            driver = new FirefoxDriver();
+
+            driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
+            driver.manage().timeouts().setScriptTimeout(50, TimeUnit.SECONDS);
+            driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
+            driver.manage().window().setSize(new Dimension(1500, 960));
+
+        }
+
+        @Override
+        protected void finished(Description description) {
+            driver.quit();
+        }
+
+        @Override
+        protected void failed(Throwable e, Description description) {
+            String newAutoTest = "TestFailure";
+            File screenshot = ((TakesScreenshot) driver).
+                    getScreenshotAs(OutputType.FILE);
+            String path = "C:\\Programms\\GitHub\\VipWriter\\screenshot\\" + getClass() + screenshot.getName();
+            try {
+                FileUtils.copyFile(screenshot, new File(path));
+            } catch (IOException e1) {
+                e1.printStackTrace();
+            }
+        }
+
+
+
+
+
+
+
+    };
 
 
 
     Random r = new Random();
     int x = r.nextInt(90000) + 1;
-
+    String abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    char letter = abc.charAt(r.nextInt(abc.length()));
     public void Screen() throws Exception {
         File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 // Now you can do whatever you need to do with it, for example copy somewhere
@@ -188,6 +200,17 @@ public class WebDriverSettings  {
 
     @Attachment(value = "Page screenshot", type = "image/png")
     protected byte[] saveAllureScreenshot() {
+        return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+    }
+
+
+    @Attachment(value = "Page screenshot", type = "image/png")
+    private byte[] saveScreenshot(byte[] screenShot) {
+        return screenShot;
+    }
+
+    @Attachment(type = "image/png")
+    public byte[] makeScreenshot() {
         return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
     }
 
@@ -200,16 +223,17 @@ public class WebDriverSettings  {
 
 
     public void WritersLogin() throws Exception {
-        driver.get("https://writer.urgentpapers.org/");
+     //   TimeUnit.SECONDS.sleep(15);
+        driver.get(Writer_StageUrl);
         Lending.loginForm(driver).click();
         Lending.userName(driver).sendKeys(mail);
         Lending.password(driver).sendKeys(pass);
         Lending.loginButton(driver).click();
-        TimeUnit.SECONDS.sleep(10);
+        TimeUnit.SECONDS.sleep(15);
 
     }
     public void TestFileDrop() throws Exception {
-        setClipboardData("C:\\Test.docx");
+        setClipboardData("\\Test.docx");
         Robot robot = new Robot();
         robot.keyPress(KeyEvent.VK_CONTROL);
         robot.keyPress(KeyEvent.VK_V);
@@ -383,8 +407,8 @@ public class WebDriverSettings  {
         driver.get("https://client.urgentpapers.org/");
 
         driver.findElement(loginClient).click();
-        driver.findElement(loginClientUserName).sendKeys("nicolaychiuri@gmail.com");
-        driver.findElement(loginClientPassword).sendKeys("nicolay");
+        driver.findElement(loginClientUserName).sendKeys(mail);
+        driver.findElement(loginClientPassword).sendKeys(pass);
         driver.findElement(loginClientSubmit).click();
         TimeUnit.SECONDS.sleep(10);
     }
@@ -491,24 +515,16 @@ public class WebDriverSettings  {
 
     }
     public void LoginSupport()throws Exception{
-        driver.get("https://support.vip-writers.commentality.com/signIn");
+        driver.get("https://support.urgentpapers.org/signIn");
         driver.manage().window().maximize();
-        WebElement login = driver.findElement(By.xpath("/html/body/div/div/form/div/div[2]/input"));
-        WebElement password = driver.findElement(By.xpath("/html/body/div/div/form/div/div[3]/input"));
-        WebElement signIn = driver.findElement(By.xpath("/html/body/div/div/form/div/div[4]/button"));
-        try {
-            TimeUnit.SECONDS.sleep(2);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        login.sendKeys("support@test.com");
-        password.sendKeys("Password1");
+        WebElement login = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[1]/div/div/div/div/form/div[1]/div/div/input"));
+        WebElement password = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[1]/div/div/div/div/form/div[2]/div/div/input"));
+        WebElement signIn = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[1]/div/div/div/div/form/div[4]/div/button"));
+        TimeUnit.SECONDS.sleep(2);
+        login.sendKeys("boosters@test.com");
+        password.sendKeys("Fg7XJz44Nz");
         signIn.click();
-        try {
-            TimeUnit.SECONDS.sleep(5);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        TimeUnit.SECONDS.sleep(5);
     }
     public void DetaileOrderPap  () throws Exception {
         LoginPap();
@@ -522,6 +538,8 @@ public class WebDriverSettings  {
         Toolkit.getDefaultToolkit().getSystemClipboard().setContents(stringSelection, null);
     }
 
+
+
     public By login1 = By.xpath("//*[@id=\"wrapper\"]/header/div/div[2]/nav/ul/li[10]/a");
     public By username1 = By.xpath("//*[@id=\"signinForm\"]/div/div[2]/input");
     public By passworf1 = By.xpath("//*[@id=\"signinForm\"]/div/div[3]/input");
@@ -529,10 +547,12 @@ public class WebDriverSettings  {
     public By sendMailUs = By.xpath("//*[@id=\"contactUsForm\"]/div[5]/div/button");
 
 
-    public By loginClient = By.cssSelector("button.green:nth-child(2)");
+
+
+    public By loginClient = By.cssSelector("#navbar > div > div.desktop-nav > ul > li.nav-item.nav-right-buttons > button");
     public By loginClientUserName = By.id("login-email");
     public By loginClientPassword = By.id("login-password");
-    public By loginClientSubmit = By.id("button-login");
+    public By loginClientSubmit = By.cssSelector(".login-submit");
     public By resetPasswordClient = By.cssSelector("forgotbutton");
     public By resetPasswordCMail = By.id("reset-email");
     public By resetPasswordCSend = By.id("reset-password");
@@ -553,7 +573,7 @@ public class WebDriverSettings  {
     public By aNFUpload = By.xpath("//*[@id=\"collapseFour\"]/div/div[1]/div[2]/button");
     public By sortById = By.xpath("/html/body/div[1]/div/div/div/div/div[3]/div/div[2]/div/div/table/thead/tr/th[1]");
     public By sortByTopic = By.xpath("/html/body/div[1]/div/div/div/div/div[3]/div/div[2]/div/div/table/thead/tr/th[2]");
-    public By previousOrders = By.xpath("//*[@id=\"mm-0\"]/div[3]/div/div[1]/div[2]/ul[1]/li[3]/a/span");
+    public By previousOrders = By.cssSelector("#mm-0 > div.my-accound > div > div.my-info > div.all-orders > ul.info-orders > li.li > a > span");
     public By order10272 = By.cssSelector(".table > tbody:nth-child(2) > tr:nth-child(26) > td:nth-child(1) > a:nth-child(1)");
     public By profile = By.xpath("//*[@id=\"mm-0\"]/div[3]/div/div[1]/div[2]/ul[2]/li[1]/a");
     public By profileChangePassword = By.xpath("//*[@id=\"mm-0\"]/div[3]/div/div[2]/div/div[1]/div[2]/a[1]");
@@ -567,15 +587,15 @@ public class WebDriverSettings  {
     public By profilePhone = By.xpath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[5]/td[2]/div/input");
     public By profileCountry = By.id("select2-countryCode-ou-container");
     public By profileSaveChanges = By.xpath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[11]/td[2]/button");
-    public By orderNow = By.id("button-order");
-    public By oNFirstName = By.name("firstName");
-    public By oNLastName = By.name("lastName");
-    public By oNMail = By.cssSelector("#customer > div:nth-child(3) > div:nth-child(2) > input:nth-child(1)");
+    public By orderNow = By.xpath("//*[@id=\"navbar\"]/div/div[1]/ul/li[6]/a[1]");
+    public By oNFirstName = By.id("sign-up-first-name");
+    public By oNLastName = By.id("order-input-2");
+    public By oNMail = By.id("sign-up-email");
     public By onConfirmMail = By.cssSelector("#customer > div:nth-child(4) > div:nth-child(2) > input:nth-child(1)");
     public By oNPassword = By.cssSelector("div.form-group:nth-child(5) > div:nth-child(2) > input:nth-child(1)");
     public By oNComfPassword = By.name("passwordConfirm");
-    public By oNPhone = By.cssSelector(".react-tel-input > input:nth-child(1)");
-    public By oNStep2 = By.id("go_to_step2_button");
+    public By oNPhone = By.id("sign-up-phone");
+    public By oNStep2 = By.id("sign-up-submit-button");
     public By oNSteps2Topic = By.name("topic");
     public By oNsteps2PaperDetails = By.name("paper_details");
     public By oNSteps2NumberOfRef = By.name("number_of_references");
@@ -598,7 +618,7 @@ public class WebDriverSettings  {
         else if(!title)
             System.out.println(tie + url);
     }
-    public void CheckTitle_ca () {
+   /* public void CheckTitle_cu() {
         String url = driver.getCurrentUrl();
         String tie = driver.getTitle();
         boolean title = driver.getTitle().contains("Pro-Papers Canada");
@@ -606,7 +626,7 @@ public class WebDriverSettings  {
             System.out.println("Good");
         else if(!title)
             System.out.println(tie + url);
-    }
+    }*/
     public void CheckTitle_au () {
         String url = driver.getCurrentUrl();
         String tie = driver.getTitle();
@@ -799,7 +819,12 @@ public class WebDriverSettings  {
     }
 
 
-
+    int z = r.nextInt(43) + 1;
+    int b = r.nextInt(9) + 1;
+    String [] AmerName = {"Liam","Emma","Noah","Olivia","Mason","Ava","Ethan","Sophia","Logan","Isabella","Lucas","Mia","Jackson","Charlotte","Aiden","Amelia","Oliver","Emily","Jacob","Madison","Elijah","Harper","Alexander","Abigail" ,"James","Avery","Benjamin","Lily" ,"Jack","Ella","Luke","Chloe" ,"William","Evelyn","Michael","Sofia" ,"Owen","Aria","Daniel","Ellie" ,"Carter","Aubreyn","Gabriel","Scarlett"};
+    String [] AmerLastName = {"Smith","Johnson","Williams","Brown","Jones","Davis","Taylor","Wilson","Robinson","Wright"};
+    String names = AmerName[z];
+    String lastName = AmerLastName[b];
 
 
 

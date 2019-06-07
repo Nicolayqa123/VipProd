@@ -6,6 +6,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.support.ui.Select;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
@@ -15,18 +18,23 @@ public class RegisteredFormJustRequiredFieldTest extends WebDriverSettings {
 
     Random r = new Random();
     int x = r.nextInt(10000) + 1;
+    String abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    char letter = abc.charAt(r.nextInt(abc.length()));
 
     public String regmail = x + "test@test.com";
     public String regpass = "123456";
 
 
+
+
     @Test
     public void RegisteredFormJustRequiredField1() throws InterruptedException {
-        driver.get("https://writer.urgentpapers.org/signUp/aboutMe");
+        driver.get("https://writer.urgentpapers.org/signUp");
+        TimeUnit.SECONDS.sleep(3);
 
-        SignUp.signUpForm(driver).click();
-        SignUp.firsName(driver).sendKeys("Nicolay");
-        SignUp.lastName(driver).sendKeys("QAtest");
+
+        SignUp.firsName(driver).sendKeys(names);
+        SignUp.lastName(driver).sendKeys(lastName);
         SignUp.language(driver).sendKeys("england");
         SignUp.genderMale(driver).click();
         JavascriptExecutor jse = (JavascriptExecutor) driver;
@@ -48,6 +56,7 @@ public class RegisteredFormJustRequiredFieldTest extends WebDriverSettings {
 
         TimeUnit.SECONDS.sleep(5);
 
+
         driver.findElementByXPath("//*[@id=\"signUpWizard\"]/div[2]/div/div/section/div[1]/div/span/span[1]/span").click();
         driver.findElementByXPath("//*[@id=\"signUpWizard\"]/div[2]/div/div/section/div[1]/div/span/span[1]/span/ul/li/input").sendKeys("Art");
         driver.findElementByXPath("/html/body/span/span/span").click();
@@ -68,15 +77,15 @@ public class RegisteredFormJustRequiredFieldTest extends WebDriverSettings {
         SignUp.iHaveRead(driver).click();
         jse.executeScript("scroll(0, 250);");
         SignUp.finish(driver).click();
-        TimeUnit.SECONDS.sleep(7);
-        assertEquals("Username", driver.findElement(By.xpath("//*[@id=\"signinForm\"]/div/div[2]/p")).getText());
+        TimeUnit.SECONDS.sleep(15);
+        assertEquals("Email", driver.findElement(By.xpath("//*[@id=\"signinForm\"]/div/div[2]/p")).getText());
 
     }
 
     @Test
     public void RegisteredFormAll() throws InterruptedException {
         driver.get("https://writer.urgentpapers.org/signUp/aboutMe");
-        SignUp.signUpForm(driver).click();
+
         SignUp.firsName(driver).sendKeys("Nicolay");
         SignUp.lastName(driver).sendKeys("QAtest");
         SignUp.language(driver).sendKeys("england");
@@ -123,8 +132,9 @@ public class RegisteredFormJustRequiredFieldTest extends WebDriverSettings {
         SignUp.iHaveRead(driver).click();
         jse.executeScript("scroll(0, 250);");
         SignUp.finish(driver).click();
-        TimeUnit.SECONDS.sleep(7);
-        assertEquals("Username", driver.findElement(By.xpath("//*[@id=\"signinForm\"]/div/div[2]/p")).getText());
+        TimeUnit.SECONDS.sleep(15);
+       // assertEquals("Email", driver.findElement(By.xpath("//*[@id=\"signinForm\"]/div/div[2]/p")).getText());
+        assertEquals("Email", driver.findElement(By.xpath("//*[@id=\"signinForm\"]/div/div[2]/p")).getText());
     }
 }
 

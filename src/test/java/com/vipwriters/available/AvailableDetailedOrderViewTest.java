@@ -15,8 +15,9 @@ public class AvailableDetailedOrderViewTest extends WebDriverSettings {
     public void orderView() throws Exception {
 
         WritersLogin();
-        AvailableOrders.order10004(driver).click();
-        assertEquals("Writer applied", driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/h2/span")).getText());
+      //  AvailableOrders.searchOrder(driver).sendKeys("10004");
+        AvailableOrders.orderAvailable(driver).click();
+        assertEquals("Topic", driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div[1]/div[2]/h2[1]")).getText());
     }
 }
 

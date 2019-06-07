@@ -35,24 +35,27 @@ public class LoginTest extends WebDriverSettings {
         }
     };
 */
-
         @Test
+        @io.qameta.allure.Description("Тест Логин не правельный ")
         public void Loginuser() throws Exception {
-            driver.get("https://writer.urgentpapers.org/");
-            Lending.loginForm(driver).click();
+            driver.get(Writer_ProdUrl);
+            TimeUnit.SECONDS.sleep(5);
+
+            driver.findElementByXPath("//*[@id=\"sign-in-button\"]").click();
+            TimeUnit.SECONDS.sleep(5);
             Lending.userName(driver).click();
             Lending.userName(driver).sendKeys(mail);
             Lending.password(driver).sendKeys(pass);
             Lending.loginButton(driver).click();
             TimeUnit.SECONDS.sleep(7);
+         //   driver.findElementById("writers-available-orders-amount").click();
             assertEquals("Available Orders", driver.findElement(By.cssSelector("#root > div > div > div.writers-content > div:nth-child(2) > h2")).getText());
-
 
         }
 
         public void UnLoginNoValid() throws InterruptedException {
 
-            driver.get("https://writer.urgentpapers.org/");
+            driver.get(Writer_ProdUrl);
             WebElement login = driver.findElement(By.xpath("/html/body/div[1]/div/div/div[1]/header/div/div[2]/nav/ul/li[11]/a"));
             WebElement username = driver.findElement(By.xpath("/html/body/div[1]/div/div/div[1]/div/div/form/div/div[2]/input"));
             WebElement password = driver.findElement(By.xpath("/html/body/div[1]/div/div/div[1]/div/div/form/div/div[3]/input"));
@@ -86,5 +89,14 @@ public class LoginTest extends WebDriverSettings {
 
         }
 
+        @Test
+    public void LoginPaptest1() throws Exception {
+        driver.get(ProPapers_ProdUrl);
 
+        driver.findElement(loginClient).click();
+        driver.findElement(loginClientUserName).sendKeys(mail);
+        driver.findElement(loginClientPassword).sendKeys(pass);
+        driver.findElement(loginClientSubmit).click();
+        TimeUnit.SECONDS.sleep(20);
+    }
 }

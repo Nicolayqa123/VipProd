@@ -9,19 +9,19 @@ public class Lending {
     public static WebElement element = null;
 
     public static WebElement forgotPassword (WebDriver driver){
-        element = driver.findElement(By.xpath("//*[@id=\"loginForm\"]/div/div/div[2]/div/div/div[1]/form/div[3]/a"));
+        element = driver.findElement(By.xpath("/html/body/div[5]/div/div[1]/div[3]/div[2]/button"));
         return element;
     }
     public static WebElement mail (WebDriver driver){
-        element = driver.findElement(By.xpath("//*[@id=\"reset-email\"]"));
+        element = driver.findElement(By.id("email-reset"));
         return element;
     }
     public static WebElement resetpassword (WebDriver driver){
-        element = driver.findElement(By.xpath("//*[@id=\"reset-password\"]/span[1]"));
+        element = driver.findElement(By.xpath("/html/body/div[5]/div/div[2]/div[3]/div[1]/button"));
         return element;
     }
     public static WebElement login (WebDriver driver){
-        element = driver.findElement(By.xpath("//*[@id=\"mm-0\"]/div[2]/div/div[1]/button[2]"));
+        element = driver.findElement(By.xpath("/html/body/nav/div/div[1]/ul/li[6]/button"));
         return element;
     }
 

@@ -73,7 +73,7 @@ public class SignUp {
         return element;
     }
     public static WebElement finish (WebDriver driver){
-        element = driver.findElement(By.xpath("//*[@id=\"signUpWizard\"]/div[2]/div/div/div/ul/li[2]/a"));
+        element = driver.findElement(By.id("signup-finish-button"));
         return element;
     }
     public static WebElement country (WebDriver driver){

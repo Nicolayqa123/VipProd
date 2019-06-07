@@ -69,7 +69,12 @@ public class SeleniumRunListener extends RunListener {
         System.out.println("Test failed with: "
                 + failure.getException());
 
-makeScreenshotOnFailure();
+        File screenshot = ((TakesScreenshot) driver).
+                getScreenshotAs(OutputType.FILE);
+        String path = "C:\\Programms\\GitHub\\VipWriter\\screenshot\\" + getClass() + screenshot.getName();
+        // String path = "C:\\Programms\\GitHub\\VipWriter\\target\\surefire-reports\\"  +  screenshot.getName();
+        FileUtils.copyFile(screenshot, new File(path));
+
 
 
     }
@@ -84,7 +89,16 @@ makeScreenshotOnFailure();
     public void testAssumptionFailure(Failure failure) {
         System.out.println("Test assumes: " + failure.getException());
 
-        makeScreenshotOnFailure();
+        File screenshot = ((TakesScreenshot) driver).
+                getScreenshotAs(OutputType.FILE);
+        String path = "C:\\Programms\\GitHub\\VipWriter\\screenshot\\" + getClass() + screenshot.getName();
+        // String path = "C:\\Programms\\GitHub\\VipWriter\\target\\surefire-reports\\"  +  screenshot.getName();
+        try {
+            FileUtils.copyFile(screenshot, new File(path));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
 
     }
 

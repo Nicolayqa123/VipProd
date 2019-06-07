@@ -5,9 +5,7 @@ import com.PageWriter.DetailedOrder;
 import com.vipwriters.WebDriverSettings;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 
-import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
 
@@ -17,7 +15,7 @@ public class AvailableSendMessageInOrderTest extends WebDriverSettings {
     public void SendMessageToClient() throws Exception {
 
         WritersLogin();
-        AvailableOrders.order10004(driver).click();
+        AvailableOrders.orderAvailable(driver).click();
         DetailedOrder.openMessageForm(driver).click();
         DetailedOrder.messageRecipientClient(driver).click();
         DetailedOrder.message(driver).sendKeys("Test Client");
@@ -29,7 +27,7 @@ public class AvailableSendMessageInOrderTest extends WebDriverSettings {
         public void SendMessageToClientMax() throws Exception {
 
             WritersLogin();
-            AvailableOrders.order10004(driver).click();
+            AvailableOrders.orderAvailable(driver).click();
             DetailedOrder.openMessageForm(driver).click();
             DetailedOrder.messageRecipientClient(driver).click();
             DetailedOrder.message(driver).sendKeys("Test ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest Client");
@@ -41,7 +39,7 @@ public class AvailableSendMessageInOrderTest extends WebDriverSettings {
     public void SendMessageToClientMin() throws Exception {
 
         WritersLogin();
-        AvailableOrders.order10004(driver).click();
+        AvailableOrders.orderAvailable(driver).click();
         DetailedOrder.openMessageForm(driver).click();
         DetailedOrder.messageRecipientClient(driver).click();
         DetailedOrder.message(driver).sendKeys("T");

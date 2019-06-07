@@ -12,8 +12,9 @@ public class PageTERMSOFUSE extends WebDriverSettings {
     @Test
     public void Terms () throws InterruptedException {
         driver.get("https://writer.urgentpapers.org/termsofuse");
+        driver.manage().window().maximize();
         JavascriptExecutor jse = (JavascriptExecutor) driver;
-        jse.executeScript("scroll(0, 450);");
+        jse.executeScript("scroll(0, 250);");
         assertEquals("1.1.\n" +
                 "“Account” is an electronic account of the Writer at the Website.\n" +
                 "1.2.\n" +
@@ -58,19 +59,19 @@ public class PageTERMSOFUSE extends WebDriverSettings {
                 "“Website” is VIP-Writers.com.\n" +
                 "1.22.\n" +
                 "“Writer” is a person working for the Company who completes Orders placed by the Clients on a freelance basis.", driver.findElement(By.id("collapseOne")).getText());
-        TimeUnit.SECONDS.sleep(2);
+        TimeUnit.SECONDS.sleep(1);
         driver.findElementByXPath("//*[@id=\"headingTwo\"]/h4/a").click();
-        jse.executeScript("scroll(0, 450);");
+        jse.executeScript("scroll(0, 1050);");
 
         assertEquals("2.1.\n" +
                 "The subject of these Terms of Use is regulation of any actions between the Company, Writers and Clients.\n" +
                 "2.2.\n" +
                 "This Agreement has no expiration date.", driver.findElement(By.id("collapseTwo")).getText());
-        jse.executeScript("scroll(0, 650);");
-        TimeUnit.SECONDS.sleep(2);
+        jse.executeScript("scroll(0, 250);");
+        TimeUnit.SECONDS.sleep(1);
 
         driver.findElementByXPath("//*[@id=\"headingThree\"]/h4/a").click();
-        jse.executeScript("scroll(0, 1400);");
+        jse.executeScript("scroll(0, 1000);");
         assertEquals("3.1.\n" +
                 "The Company is obliged to:\n" +
                 "3.1.1.\n" +
@@ -119,7 +120,7 @@ public class PageTERMSOFUSE extends WebDriverSettings {
                 "Submit high-quality and plagiarism-free Products that meet all Clients’ requirements.\n" +
                 "3.3.7.\n" +
                 "Revise Products for free:\n" +
-                "If the order is sent for revision within 30 days after the Product was delivered to the Client.\n" +
+                "If the order is sent for revision within 14 days after the Product was delivered to the Client.\n" +
                 "In case the final paper is plagiarized, there will be no time-frame for the revision\n" +
                 "3.3.8.\n" +
                 "Provide Drafts if requested by the Company or Client.\n" +
@@ -151,11 +152,10 @@ public class PageTERMSOFUSE extends WebDriverSettings {
                 "Sell Account or share access to the Account with any third parties.\n" +
                 "3.4.5.\n" +
                 "Contact Clients if any personal information was provided by the Clients.", driver.findElement(By.id("collapseThree")).getText());
-        jse.executeScript("scroll(0, 2000);");
         TimeUnit.SECONDS.sleep(1);
 
         driver.findElementByXPath("//*[@id=\"headingFour\"]/h4/a").click();
-        jse.executeScript("scroll(0, 2000);");
+        jse.executeScript("scroll(0, 700);");
 
         assertEquals("4.1.\n" +
                 "Content should be original and well-written.\n" +

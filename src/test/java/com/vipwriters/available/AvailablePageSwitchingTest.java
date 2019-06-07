@@ -18,7 +18,7 @@ public class AvailablePageSwitchingTest extends WebDriverSettings {
         AvailableOrders.page2(driver).click();
         AvailableOrders.page3(driver).click();
        }
-    @Test
+
     public  void pageSwitch25 () throws Exception{
         WritersLogin();
         TimeUnit.SECONDS.sleep(6);

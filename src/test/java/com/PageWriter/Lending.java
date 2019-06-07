@@ -9,11 +9,11 @@ public class Lending {
     public static WebElement element = null;
 
     public static WebElement loginForm (WebDriver driver){
-        element = driver.findElement(By.xpath("/html/body/header/div/div[2]/nav/ul/li[10]/a"));
+        element = driver.findElement(By.id("sign-in-button"));
         return element;
     }
     public static WebElement userName (WebDriver driver){
-        element = driver.findElement(By.xpath("//*[@id=\"signinForm\"]/div/div[2]/input"));
+        element = driver.findElement(By.id("username"));
         return element;
     }
     public static WebElement password (WebDriver driver){

@@ -17,8 +17,8 @@ public class AvailableOrders {
         element = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div[1]/div[2]/label"));
         return element;
     }
-    public static WebElement order10004(WebDriver driver){
-        element = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div[2]/table/tbody/tr/td[1]/a"));
+    public static WebElement orderAvailable(WebDriver driver){
+        element = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div/table/tbody/tr/td[1]/a"));
         return element;
     }
     public static WebElement filterorderId(WebDriver driver){

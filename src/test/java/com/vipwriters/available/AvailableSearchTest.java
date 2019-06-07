@@ -8,7 +8,7 @@ import org.openqa.selenium.By;
 import static org.junit.Assert.assertEquals;
 
 public class AvailableSearchTest extends WebDriverSettings {
-    @Test
+
     public void Search () throws Exception {
         WritersLogin();
         AvailableOrders.searchOrder(driver).sendKeys("10004");

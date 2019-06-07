@@ -16,7 +16,7 @@ public class MyOrderDetailedOrderViewTest extends WebDriverSettings {
         WritersLogin();
         TimeUnit.SECONDS.sleep(2);
         MyOrders.myOrders(driver).click();
-        MyOrders.Order10015(driver).click();
+        MyOrders.OrderInProgress(driver).click();
         assertEquals("In progress", driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/h2/span")).getText());
     }
 }

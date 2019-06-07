@@ -22,8 +22,8 @@ public class ForgotPasswordTest extends WebDriverSettings {
         Lending.forgotPasswordMail(driver).sendKeys(mail);
         Lending.forgotPasswordSend(driver).click();
 
-        assertEquals("The password reset link was sent to you via email. Please navigate it to change your password.\n" +
-                "If the email does not arrive, please contact support administrator.", driver.findElement(By.xpath("//*[@id=\"sendResetPasswordEmailForm\"]/p")).getText());
+        assertEquals("The password reset link was sent to your email. Please click it to change your password.\n" +
+                "If you can’t find this link, please contact us at manager@vip-writers.com.", driver.findElement(By.xpath("//*[@id=\"sendResetPasswordEmailForm\"]/p")).getText());
     }
 
 @Test

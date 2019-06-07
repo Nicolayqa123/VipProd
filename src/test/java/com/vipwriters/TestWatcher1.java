@@ -5,8 +5,10 @@ import org.apache.commons.io.FileUtils;
 import org.junit.Rule;
 import org.junit.rules.TestWatcher;
 import org.junit.runner.Description;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.io.File;
@@ -15,21 +17,21 @@ import java.util.concurrent.TimeUnit;
 
 public class TestWatcher1 extends WebDriverSettings{
 
-    @Rule
+
+    public WebDriver driver;
+
+   @Rule
     public TestWatcher watcher = new TestWatcher() {
 
         @Override
         protected void starting(Description description) {
-            System.setProperty("webdriver.gecko.driver", "C://Programms/geckodriver.exe");
+            System.setProperty("webdriver.gecko.driver", "driver/geckodriver.exe");
             driver = new FirefoxDriver();
-            System.setProperty("webdriver.chrome.driver", "C://Programms/chromedriver.exe");
-            //  driver = new ChromeDriver();
-            System.setProperty("webdriver.ie.driver", "C://Programms/IEDriverServer.exe");
-            // driver = new InternetExplorerDriver();
-            driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-            driver.manage().timeouts().setScriptTimeout(20, TimeUnit.SECONDS);
-            driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
-            driver.manage().window().maximize();
+
+            driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
+            driver.manage().timeouts().setScriptTimeout(50, TimeUnit.SECONDS);
+            driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
+            driver.manage().window().setSize(new Dimension(1600, 1000));
 
         }
 
@@ -44,7 +46,7 @@ public class TestWatcher1 extends WebDriverSettings{
             String newAutoTest = "TestFailure";
             File screenshot = ((TakesScreenshot) driver).
                     getScreenshotAs(OutputType.FILE);
-            String path = "C:\\Programms\\PNG\\" + screenshot.getName();
+            String path = "C:\\Programms\\GitHub\\VipWriter\\screenshot\\" + getClass() + screenshot.getName();
             try {
                 FileUtils.copyFile(screenshot, new File(path));
             } catch (IOException e1) {

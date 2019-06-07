@@ -21,7 +21,7 @@ public class AppliedOrders {
         element = driver.findElement(By.id("writers-applied-orders-amount"));
         return element;
     }
-    public static WebElement order10354(WebDriver driver){
+    public static WebElement orderApplied(WebDriver driver){
         element = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div/table/tbody/tr/td[1]/a"));
         return element;
     }

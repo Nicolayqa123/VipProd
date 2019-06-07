@@ -18,8 +18,7 @@ public class AvailableShowOnlyOrdersWithinMyProficiencyTest extends WebDriverSet
 
         WritersLogin();
         AvailableOrders.showOnlyMy(driver).click();
-        AvailableOrders.searchOrder(driver).sendKeys("10044");
-        assertEquals("10044", driver.findElement(By.cssSelector("#root > div > div > div.writers-content > div:nth-child(2) > div.writers-available-orders-table > table > tbody > tr > td:nth-child(1) > a")).getText());
+        assertEquals("Architecture", driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div[2]/table/tbody/tr[1]/td[8]")).getText());
 
     }
 }
