@@ -2,136 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30a5b001-07cb-452b-a9d5-7ea217301538" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/PageClient/Page.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/PageClient/Profile.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/PreviousOrders/FilterTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/PreviousOrders/PayToOrderTest.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/VipProd.iml" afterPath="$PROJECT_DIR$/VipProd.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Regression/CheckTitle.java" afterPath="$PROJECT_DIR$/src/test/java/Regression/CheckTitle.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Regression/asdsadasd.java" afterPath="$PROJECT_DIR$/src/test/java/Regression/asdsadasd.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageClient/Lending.java" afterPath="$PROJECT_DIR$/src/test/java/com/PageClient/Lending.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageClient/Registered.java" afterPath="$PROJECT_DIR$/src/test/java/com/PageClient/Registered.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageWriter/AppliedOrders.java" afterPath="$PROJECT_DIR$/src/test/java/com/PageWriter/AppliedOrders.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageWriter/AvailableOrders.java" afterPath="$PROJECT_DIR$/src/test/java/com/PageWriter/AvailableOrders.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageWriter/Lending.java" afterPath="$PROJECT_DIR$/src/test/java/com/PageWriter/Lending.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageWriter/MyOrders.java" afterPath="$PROJECT_DIR$/src/test/java/com/PageWriter/MyOrders.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageWriter/SignUp.java" afterPath="$PROJECT_DIR$/src/test/java/com/PageWriter/SignUp.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageWriter/Transactions.java" afterPath="$PROJECT_DIR$/src/test/java/com/PageWriter/Transactions.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/ContactUSTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/CurrentOrders/FilterTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/CurrentOrders/PayToOrderTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/CurrentOrders/SaveFilesTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/CurrentOrders/SendMessageInOrderTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/ForgotPasswordTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/LoginClientTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/PreviousOrders/DetailedOrderView1Test.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/PreviousOrders/FilterTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/PreviousOrders/PayToOrderTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/PreviousOrders/SaveFilesTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/PreviousOrders/SendMessageInOrderTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/Profile/ChangesPasswordTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/Profile/EditingProfileTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/ReferralProgram/RefProgTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/RegisteredStep2Test.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/RegisteredStep3Test.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/RegisteredTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/UnpaidOrders/AddChangeDiscountTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/UnpaidOrders/DetailedOrderView1Test.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/UnpaidOrders/FilterTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/UnpaidOrders/SendMessageInOrderTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/SeleniumRunListener.java" afterPath="$PROJECT_DIR$/src/test/java/com/SeleniumRunListener.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/Affiliate/AffiliateStatisticsTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/Applied/AppliedDetailedOrderViewTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/Applied/AppliedDownloadFilesTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/Applied/AppliedFilterTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/Applied/AppliedSendMessageTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/Applied/AppliedUploadFilesTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/LoginClient.java" afterPath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/LoginClientTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/PreviousOrders/DetailedOrderView1.java" afterPath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/PreviousOrders/DetailedOrderViewTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/PreviousOrders/Filter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/PreviousOrders/PayToOrder.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/Profile/ChangesPassword.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/Profile/EditingProfile.java" afterPath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/Profile/EditingProfile.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/ContactFormTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/ContactFormTest.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/ForgotPasswordTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/ForgotPasswordTest.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/MyOrders/MyOrderDetailedOrderViewTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/MyOrders/MyOrderDetailedOrderViewTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/MyOrders/MyOrderSendMessageTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/MyOrders/MyOrderSendMessageTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/MyOrders/MyOrdersDownloadFilesTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/MyOrders/MyOrdersUploadFileTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/MyOrders/MyOrdersUploadFileTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/PageTERMSOFUSE.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/PageTERMSOFUSE.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/PageTutorialsTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/PageWhatYouGetTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/Payments/PaymentsPageSwitchingTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/Payments/PaymentsPageSwitchingTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/Payments/PaymentsReasonTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/Payments/PaymentsReasonTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/MailUSFormTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/MailUSFormTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/MyOrders/MyOrderDetailedOrderViewTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/MyOrders/MyOrderDetailedOrderView.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/MyOrders/MyOrderSendMessageTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/MyOrders/MyOrderSendMessage.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/MyOrders/MyOrdersUploadFileTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/MyOrders/MyOrdersUploadFile.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/Payments/PaymentsSearchTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/Payments/PaymentsSearchTest.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/RegisteredFormJustRequiredFieldTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/RegisteredFormJustRequiredFieldTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/TestWatcher1.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/TestWatcher1.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/Trainee.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/Trainee.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/available/AvailableDetailedOrderViewTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/available/AvailableDetailedOrderViewTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/available/AvailableDownloadFilesTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/available/AvailableFilterTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/available/AvailableFilterTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/available/AvailablePageSwitchingTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/available/AvailablePageSwitchingTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/available/AvailablePageSwitchingTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/available/AvailablePageSwitching.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/available/AvailableSearchTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/available/AvailableSearchTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/available/AvailableSendMessageInOrderTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/available/AvailableSendMessageInOrderTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/available/AvailableShowOnlyOrdersWithinMyProficiencyTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/available/AvailableShowOnlyOrdersWithinMyProficiencyTest.java" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Regression/CheckTitle.class" afterPath="$PROJECT_DIR$/target/test-classes/Regression/CheckTitle.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Regression/asdsadasd.class" afterPath="$PROJECT_DIR$/target/test-classes/Regression/asdsadasd.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageClient/Lending.class" afterPath="$PROJECT_DIR$/target/test-classes/com/PageClient/Lending.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageClient/Registered.class" afterPath="$PROJECT_DIR$/target/test-classes/com/PageClient/Registered.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageWriter/AppliedOrders.class" afterPath="$PROJECT_DIR$/target/test-classes/com/PageWriter/AppliedOrders.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageWriter/AvailableOrders.class" afterPath="$PROJECT_DIR$/target/test-classes/com/PageWriter/AvailableOrders.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageWriter/Lending.class" afterPath="$PROJECT_DIR$/target/test-classes/com/PageWriter/Lending.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageWriter/MyOrders.class" afterPath="$PROJECT_DIR$/target/test-classes/com/PageWriter/MyOrders.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageWriter/SignUp.class" afterPath="$PROJECT_DIR$/target/test-classes/com/PageWriter/SignUp.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageWriter/Transactions.class" afterPath="$PROJECT_DIR$/target/test-classes/com/PageWriter/Transactions.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/ContactUSTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/CurrentOrders/FilterTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/CurrentOrders/PayToOrderTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/CurrentOrders/SaveFilesTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/CurrentOrders/SendMessageInOrderTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/ForgotPasswordTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/LoginClientTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/PreviousOrders/DetailedOrderView1Test.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/PreviousOrders/FilterTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/PreviousOrders/PayToOrderTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/PreviousOrders/SaveFilesTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/PreviousOrders/SendMessageInOrderTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/Profile/ChangesPasswordTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/Profile/EditingProfileTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/ReferralProgram/RefProgTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/RegisteredStep2Test.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/RegisteredStep3Test.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/RegisteredTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/UnpaidOrders/AddChangeDiscountTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/UnpaidOrders/DetailedOrderView1Test.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/UnpaidOrders/FilterTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/UnpaidOrders/SendMessageInOrderTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/SeleniumRunListener.class" afterPath="$PROJECT_DIR$/target/test-classes/com/SeleniumRunListener.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Affiliate/AffiliateStatisticsTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Applied/AppliedDetailedOrderViewTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Applied/AppliedDownloadFilesTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Applied/AppliedFilterTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Applied/AppliedSendMessageTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Applied/AppliedUploadFilesTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/available/AvailableSendMessageInOrderTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/available/AvailableSendMessageInOrder.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/available/AvailableShowOnlyOrdersWithinMyProficiencyTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/available/AvailableShowOnlyOrdersWithinMyProficiency.java" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/LoginClient.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/PreviousOrders/DetailedOrderView1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/PreviousOrders/Filter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/PreviousOrders/PayToOrder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/Profile/ChangesPassword.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/Profile/EditingProfile.class" afterPath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/Profile/EditingProfile.class" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/ContactFormTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/ContactFormTest.class" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/ForgotPasswordTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/ForgotPasswordTest.class" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/LoginTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/LoginTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MyOrders/MyOrderDetailedOrderViewTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MyOrders/MyOrderDetailedOrderViewTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MyOrders/MyOrderSendMessageTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MyOrders/MyOrderSendMessageTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MyOrders/MyOrdersDownloadFilesTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MyOrders/MyOrdersUploadFileTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MyOrders/MyOrdersUploadFileTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/PageTERMSOFUSE.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/PageTERMSOFUSE.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/PageTutorialsTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/PageWhatYouGetTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Payments/PaymentsPageSwitchingTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Payments/PaymentsPageSwitchingTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Payments/PaymentsReasonTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Payments/PaymentsReasonTest.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MailUSFormTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MailUSFormTest.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MyOrders/MyOrderDetailedOrderViewTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MyOrders/MyOrderSendMessageTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MyOrders/MyOrdersUploadFileTest.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Payments/PaymentsSearchTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Payments/PaymentsSearchTest.class" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/RegisteredFormJustRequiredFieldTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/RegisteredFormJustRequiredFieldTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/TestWatcher1$1.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/TestWatcher1$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/TestWatcher1.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/TestWatcher1.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Trainee.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Trainee.class" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/WebDriverSettings.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/WebDriverSettings.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailableDetailedOrderViewTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailableDetailedOrderViewTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailableDownloadFilesTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailableFilterTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailableFilterTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailablePageSwitchingTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailablePageSwitchingTest.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailablePageSwitchingTest.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailableSearchTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailableSearchTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailableSendMessageInOrderTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailableSendMessageInOrderTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailableShowOnlyOrdersWithinMyProficiencyTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailableShowOnlyOrdersWithinMyProficiencyTest.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailableSendMessageInOrderTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailableShowOnlyOrdersWithinMyProficiencyTest.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -143,74 +59,32 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="ChangesPasswordTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/Profile/ChangesPasswordTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="192">
+              <caret line="30" column="38" lean-forward="false" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java">
+      <file leaf-file-name="EditingProfile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/Profile/EditingProfile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="92" column="16" lean-forward="false" selection-start-line="92" selection-start-column="16" selection-end-line="92" selection-end-column="16" />
+            <state relative-caret-position="-221">
+              <caret line="85" column="0" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PageWhatYouGet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/PageWhatYouGet.java">
+      <file leaf-file-name="ContactUS.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/ContactUS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PageTutorials.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/PageTutorials.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Lending.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/PageWriter/Lending.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebDriverSettingsIE.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettingsIE.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebDriverSettingsChrome.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettingsChrome.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+            <state relative-caret-position="210">
+              <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -219,18 +93,90 @@
       <file leaf-file-name="WebDriverSettings.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-117">
-              <caret line="159" column="0" lean-forward="true" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
+            <state relative-caret-position="186">
+              <caret line="558" column="14" lean-forward="false" selection-start-line="558" selection-start-column="14" selection-end-line="558" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginClientTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/LoginClientTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-536">
+              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Profile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/PageClient/Profile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="490">
+              <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#5009#5010#0" expanded="true" />
-                <element signature="e#5046#5047#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Page.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/PageClient/Page.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="777">
+              <caret line="39" column="79" lean-forward="false" selection-start-line="39" selection-start-column="79" selection-end-line="39" selection-end-column="79" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegisteredStep1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/RegisteredStep1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegisteredStep2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/RegisteredStep2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-105">
+              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegisteredStep3.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/RegisteredStep3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="35" column="28" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="35" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Assert</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -245,7 +191,30 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/ContactFormTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/ForgotPasswordTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/MailUSFormTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/RegisteredFormJustRequiredFieldTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/available/AvailableSendMessageInOrder.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/available/AvailableSearchTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/available/AvailableShowOnlyOrdersWithinMyProficiencyTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/available/AvailableShowOnlyOrdersWithinMyProficiency.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/MyOrders/MyOrderDetailedOrderView.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/Payments/PaymentsSearchTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/PageClient/Page.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Pro_Papers/PreviousOrders/DetailedOrderView1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Pro_Papers/PreviousOrders/DetailedOrderViewTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Pro_Papers/PreviousOrders/Filter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Pro_Papers/PreviousOrders/FilterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Pro_Papers/PreviousOrders/PayToOrder.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Pro_Papers/PreviousOrders/PayToOrderTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Pro_Papers/Profile/ChangesPassword.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Pro_Papers/Profile/ChangesPasswordTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/PageClient/Profile.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Pro_Papers/Profile/EditingProfile.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Pro_Papers/LoginClient.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Pro_Papers/LoginClientTest.java" />
       </list>
     </option>
   </component>
@@ -259,11 +228,11 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1050" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="1" />
+    <option name="width" value="1298" />
+    <option name="height" value="908" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -280,10 +249,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -324,7 +293,37 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vipwriters" type="462c0819:PsiDirectoryNode" />
+              <item name="PageClient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VipProd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VipProd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Pro_Papers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VipProd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VipProd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Pro_Papers" type="462c0819:PsiDirectoryNode" />
+              <item name="Profile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VipProd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VipProd" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VipProd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VipProd" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="screenshots" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -351,7 +350,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LoginTest.LoginPaptest1">
+  <component name="RunManager" selected="JUnit.LoginClientTest.LoginUserWrongPassword">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -373,18 +372,18 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EditingProfile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.vipwriters.*" />
+          <option name="PATTERN" value="com.Pro_Papers.Profile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="VipProd" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.vipwriters" />
-      <option name="MAIN_CLASS_NAME" value="com.vipwriters.LoginTest" />
+      <option name="PACKAGE_NAME" value="com.Pro_Papers.Profile" />
+      <option name="MAIN_CLASS_NAME" value="com.Pro_Papers.Profile.EditingProfile" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -398,19 +397,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="LoginTest.LoginPaptest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EditingProfile.EditProfile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.vipwriters.*" />
+          <option name="PATTERN" value="com.Pro_Papers.Profile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="VipProd" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.vipwriters" />
-      <option name="MAIN_CLASS_NAME" value="com.vipwriters.LoginTest" />
-      <option name="METHOD_NAME" value="LoginPaptest1" />
+      <option name="PACKAGE_NAME" value="com.Pro_Papers.Profile" />
+      <option name="MAIN_CLASS_NAME" value="com.Pro_Papers.Profile.EditingProfile" />
+      <option name="METHOD_NAME" value="EditProfile" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -423,19 +422,69 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="LoginTest.Loginuser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EditingProfile.EditProfileEmptyField" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.vipwriters.*" />
+          <option name="PATTERN" value="com.Pro_Papers.Profile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="VipProd" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.vipwriters" />
-      <option name="MAIN_CLASS_NAME" value="com.vipwriters.LoginTest" />
-      <option name="METHOD_NAME" value="Loginuser" />
+      <option name="PACKAGE_NAME" value="com.Pro_Papers.Profile" />
+      <option name="MAIN_CLASS_NAME" value="com.Pro_Papers.Profile.EditingProfile" />
+      <option name="METHOD_NAME" value="EditProfileEmptyField" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="LoginClientTest.Login1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.Pro_Papers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="VipProd" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.Pro_Papers" />
+      <option name="MAIN_CLASS_NAME" value="com.Pro_Papers.LoginClientTest" />
+      <option name="METHOD_NAME" value="Login1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="LoginClientTest.LoginUserWrongPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.Pro_Papers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="VipProd" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.Pro_Papers" />
+      <option name="MAIN_CLASS_NAME" value="com.Pro_Papers.LoginClientTest" />
+      <option name="METHOD_NAME" value="LoginUserWrongPassword" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -508,16 +557,20 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.LoginTest.Loginuser" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.LoginTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.LoginTest.LoginPaptest1" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.EditingProfile" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.EditingProfile.EditProfile" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.EditingProfile.EditProfileEmptyField" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.LoginClientTest.Login1" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.LoginClientTest.LoginUserWrongPassword" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.LoginTest.LoginPaptest1" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.LoginTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.LoginTest.Loginuser" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.LoginClientTest.LoginUserWrongPassword" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.LoginClientTest.Login1" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.EditingProfile.EditProfileEmptyField" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.EditingProfile.EditProfile" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.EditingProfile" />
       </list>
     </recent_temporary>
   </component>
@@ -534,76 +587,99 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559910950460</updated>
-      <workItem from="1559910964913" duration="3085000" />
+      <workItem from="1559910964913" duration="4197000" />
+      <workItem from="1560171254524" duration="2816000" />
+      <workItem from="1560234765638" duration="704000" />
+      <workItem from="1560325348324" duration="520000" />
+      <workItem from="1560512367052" duration="557000" />
+      <workItem from="1560950439375" duration="527000" />
+      <workItem from="1561016288807" duration="540000" />
+      <workItem from="1561359744518" duration="581000" />
+      <workItem from="1561625599895" duration="593000" />
+      <workItem from="1561725749371" duration="778000" />
+      <workItem from="1561984379219" duration="570000" />
+      <workItem from="1562070713262" duration="859000" />
+      <workItem from="1562145097539" duration="585000" />
+      <workItem from="1562572924412" duration="593000" />
+      <workItem from="1562655259036" duration="568000" />
+      <workItem from="1562744156100" duration="549000" />
+      <workItem from="1562844446368" duration="582000" />
+      <workItem from="1562917634099" duration="8119000" />
+      <workItem from="1563010911822" duration="4526000" />
+      <workItem from="1563192543149" duration="592000" />
+      <workItem from="1563261007639" duration="582000" />
+      <workItem from="1563354230078" duration="1228000" />
+      <workItem from="1563431360066" duration="13925000" />
+      <workItem from="1563521359220" duration="8521000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginTest - 2019.06.07 at 16h 23m 10s.xml">
-      <configuration name="LoginTest" configurationId="JUnit" />
+    <history-entry file="EditingProfile_EditProfileEmptyField - 2019.07.19 at 12h 07m 38s.xml">
+      <configuration name="EditingProfile.EditProfileEmptyField" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest - 2019.06.07 at 16h 25m 45s.xml">
-      <configuration name="LoginTest" configurationId="JUnit" />
+    <history-entry file="EditingProfile_EditProfileEmptyField - 2019.07.19 at 12h 08m 47s.xml">
+      <configuration name="EditingProfile.EditProfileEmptyField" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest_LoginPaptest1 - 2019.06.07 at 16h 27m 34s.xml">
-      <configuration name="LoginTest.LoginPaptest1" configurationId="JUnit" />
+    <history-entry file="LoginClientTest_LoginUserWrongPassword - 2019.07.19 at 14h 18m 42s.xml">
+      <configuration name="LoginClientTest.LoginUserWrongPassword" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest_Loginuser - 2019.06.07 at 15h 57m 41s.xml">
-      <configuration name="LoginTest.Loginuser" configurationId="JUnit" />
+    <history-entry file="LoginClientTest_LoginUserWrongPassword - 2019.07.19 at 14h 19m 56s.xml">
+      <configuration name="LoginClientTest.LoginUserWrongPassword" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest_Loginuser - 2019.06.07 at 16h 08m 06s.xml">
-      <configuration name="LoginTest.Loginuser" configurationId="JUnit" />
+    <history-entry file="LoginClientTest_LoginUserWrongPassword - 2019.07.19 at 14h 26m 12s.xml">
+      <configuration name="LoginClientTest.LoginUserWrongPassword" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest_Loginuser - 2019.06.07 at 16h 10m 22s.xml">
-      <configuration name="LoginTest.Loginuser" configurationId="JUnit" />
+    <history-entry file="LoginClientTest_LoginUserWrongPassword - 2019.07.19 at 14h 44m 02s.xml">
+      <configuration name="LoginClientTest.LoginUserWrongPassword" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest_Loginuser - 2019.06.07 at 16h 10m 48s.xml">
-      <configuration name="LoginTest.Loginuser" configurationId="JUnit" />
+    <history-entry file="LoginClientTest_LoginUserWrongPassword - 2019.07.19 at 14h 47m 27s.xml">
+      <configuration name="LoginClientTest.LoginUserWrongPassword" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest_Loginuser - 2019.06.07 at 16h 13m 53s.xml">
-      <configuration name="LoginTest.Loginuser" configurationId="JUnit" />
+    <history-entry file="LoginClientTest_LoginUserWrongPassword - 2019.07.19 at 14h 49m 21s.xml">
+      <configuration name="LoginClientTest.LoginUserWrongPassword" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest_Loginuser - 2019.06.07 at 16h 14m 36s.xml">
-      <configuration name="LoginTest.Loginuser" configurationId="JUnit" />
+    <history-entry file="LoginClient_Login1 - 2019.07.19 at 14h 08m 31s.xml">
+      <configuration name="LoginClient.Login1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest_Loginuser - 2019.06.07 at 16h 16m 42s.xml">
-      <configuration name="LoginTest.Loginuser" configurationId="JUnit" />
+    <history-entry file="LoginClient_Login1 - 2019.07.19 at 14h 10m 05s.xml">
+      <configuration name="LoginClient.Login1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3085000" />
+    <option name="totallyTimeSpent" value="53612000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32842582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2567132" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -614,66 +690,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettingsChrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettingsIE.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/Applied/AppliedSendMessageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/CurrentOrders/FilterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/PageWriter/Lending.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/PageWhatYouGet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -681,26 +706,362 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/PageWriter/Lending.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettingsIE.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettingsChrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3339">
+          <caret line="159" column="0" lean-forward="false" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#5009#5010#0" expanded="false" />
+            <element signature="e#5046#5047#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/ForgotPasswordTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/Applied/AppliedSendMessageTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/CurrentOrders/FilterTest.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/PageWhatYouGet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/PageTutorials.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/MyOrders/MyOrdersDownloadFiles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/PageWriter/Lending.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettingsIE.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettingsChrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/MyOrders/MyOrderSendMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="17" column="58" lean-forward="false" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="71" column="13" lean-forward="false" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/ForgotPasswordTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="43" column="33" lean-forward="false" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/MailUSFormTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/RegisteredFormJustRequiredFieldTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1554">
+          <caret line="86" column="45" lean-forward="false" selection-start-line="86" selection-start-column="45" selection-end-line="86" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/available/AvailableDetailedOrderViewTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/available/AvailableDownloadFiles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/available/AvailableFilterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/available/AvailableSearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/available/AvailableSendMessageInOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/available/AvailableShowOnlyOrdersWithinMyProficiency.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="20" column="40" lean-forward="false" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/MyOrders/MyOrderDetailedOrderView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="13" column="9" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/Payments/PaymentsPageSwitchingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/Payments/PaymentsReasonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/Payments/PaymentsSearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/CurrentOrders/PayToOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/CurrentOrders/SaveFiles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="22" column="39" lean-forward="false" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/CurrentOrders/Filter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/PreviousOrders/DetailedOrderViewTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="15" column="41" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/PreviousOrders/FilterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/PreviousOrders/SendMessageInOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-977">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/ContactFormTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1911">
+          <caret line="101" column="36" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/PreviousOrders/PayToOrderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/PreviousOrders/SaveFiles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/PageClient/Registered.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="12" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/PageClient/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="39" column="79" lean-forward="false" selection-start-line="39" selection-start-column="79" selection-end-line="39" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/Profile/ChangesPasswordTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="30" column="38" lean-forward="false" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/RegisteredStep1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/RegisteredStep2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-105">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/RegisteredStep3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="35" column="28" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="35" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/PageClient/Profile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/Profile/EditingProfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-221">
+          <caret line="85" column="0" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/ContactUS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-117">
-          <caret line="159" column="0" lean-forward="true" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5009#5010#0" expanded="true" />
-            <element signature="e#5046#5047#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="186">
+          <caret line="558" column="14" lean-forward="false" selection-start-line="558" selection-start-column="14" selection-end-line="558" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/LoginClientTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="92" column="16" lean-forward="false" selection-start-line="92" selection-start-column="16" selection-end-line="92" selection-end-column="16" />
+        <state relative-caret-position="-536">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>

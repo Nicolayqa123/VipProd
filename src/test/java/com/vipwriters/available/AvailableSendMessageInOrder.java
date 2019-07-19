@@ -9,7 +9,7 @@ import org.openqa.selenium.By;
 
 import static org.junit.Assert.assertEquals;
 
-public class AvailableSendMessageInOrderTest extends WebDriverSettings {
+public class AvailableSendMessageInOrder extends WebDriverSettings {
 
     @Test
     public void SendMessageToClient() throws Exception {

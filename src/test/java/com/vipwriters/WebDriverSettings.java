@@ -224,7 +224,7 @@ public class WebDriverSettings   {
 
     public void WritersLogin() throws Exception {
      //   TimeUnit.SECONDS.sleep(15);
-        driver.get(Writer_StageUrl);
+        driver.get(Writer_ProdUrl);
         Lending.loginForm(driver).click();
         Lending.userName(driver).sendKeys(mail);
         Lending.password(driver).sendKeys(pass);
@@ -404,7 +404,7 @@ public class WebDriverSettings   {
 
     }
     public void LoginPap() throws Exception {
-        driver.get("https://client.urgentpapers.org/");
+        driver.get(ProPapers_ProdUrl);
 
         driver.findElement(loginClient).click();
         driver.findElement(loginClientUserName).sendKeys(mail);

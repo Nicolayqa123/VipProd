@@ -15,7 +15,7 @@ public class ForgotPasswordTest extends WebDriverSettings {
 @Test
     public void forgotpassword() throws Exception{
 
-        driver.get("https://writer.urgentpapers.org");
+        driver.get(Writer_ProdUrl);
     TimeUnit.SECONDS.sleep(3);
         Lending.loginForm(driver).click();
         Lending.forgotPassword(driver).click();
@@ -29,7 +29,7 @@ public class ForgotPasswordTest extends WebDriverSettings {
 @Test
     public void ForgotPasswordNoValid() throws Exception{
 
-        driver.get("https://writer.urgentpapers.org");
+        driver.get(Writer_ProdUrl);
         TimeUnit.SECONDS.sleep(3);
         Lending.loginForm(driver).click();
         Lending.forgotPassword(driver).click();
@@ -41,7 +41,7 @@ public class ForgotPasswordTest extends WebDriverSettings {
 @Test
     public void ForgotPasswordEmptyFields()throws Exception {
 
-        driver.get("https://writer.urgentpapers.org");
+        driver.get(Writer_ProdUrl);
         TimeUnit.SECONDS.sleep(3);
         Lending.loginForm(driver).click();
         Lending.forgotPassword(driver).click();

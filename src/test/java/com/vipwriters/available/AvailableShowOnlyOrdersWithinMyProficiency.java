@@ -11,14 +11,14 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
 
-public class AvailableShowOnlyOrdersWithinMyProficiencyTest extends WebDriverSettings {
+public class AvailableShowOnlyOrdersWithinMyProficiency extends WebDriverSettings {
 
     @Test
     public void OrderWithMy () throws Exception {
 
         WritersLogin();
         AvailableOrders.showOnlyMy(driver).click();
-        assertEquals("Architecture", driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div[2]/table/tbody/tr[1]/td[8]")).getText());
+        assertEquals("Architecture" + "", driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div[2]/table/tbody/tr[1]/td[8]")).getText());
 
     }
 }

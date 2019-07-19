@@ -17,7 +17,7 @@ public class ContactFormTest extends WebDriverSettings {
     @Test
     public void ContactForm1 () throws InterruptedException  {
 
-        driver.get("https://writer.urgentpapers.org/contacts");
+        driver.get(Writer_ProdUrl + "/contacts");
         TimeUnit.SECONDS.sleep(5);
 
         ContacteUs.subjectOther(driver).sendKeys("Test1");
@@ -36,7 +36,7 @@ public class ContactFormTest extends WebDriverSettings {
 
     @Test
     public void ContactFormMin () throws InterruptedException {
-        driver.get("https://writer.urgentpapers.org/contacts");
+        driver.get(Writer_ProdUrl  + "/contacts");
         ContacteUs.subjectOther(driver).sendKeys("1");
         ContacteUs.senderEmail(driver).sendKeys("a@g.com");
         ContacteUs.name(driver).sendKeys("1");
@@ -54,7 +54,7 @@ public class ContactFormTest extends WebDriverSettings {
 
     @Test
     public void ContactFormMax () throws InterruptedException {
-        driver.get("https://writer.urgentpapers.org/contacts");
+        driver.get(Writer_ProdUrl  + "/contacts");
         ContacteUs.subjectOther(driver).sendKeys("1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890");
         ContacteUs.senderEmail(driver).sendKeys("12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234@ya.ru");
         ContacteUs.name(driver).sendKeys("1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890");
@@ -72,7 +72,7 @@ public class ContactFormTest extends WebDriverSettings {
           }
     @Test
     public void ContactFormRequiredField () throws InterruptedException {
-        driver.get("https://writer.urgentpapers.org/contacts");
+        driver.get(Writer_ProdUrl  + "/contacts");
         TimeUnit.SECONDS.sleep(4);
         ContacteUs.subjectOther(driver).sendKeys("Test1");
         ContacteUs.senderEmail(driver).sendKeys("12as23da@gmail.com");
@@ -86,7 +86,7 @@ public class ContactFormTest extends WebDriverSettings {
     }
     @Test
     public void UnContactFormEmptyFields() throws InterruptedException {
-        driver.get("https://writer.urgentpapers.org/contacts");
+        driver.get(Writer_ProdUrl  + "/contacts");
         TimeUnit.SECONDS.sleep(4);
         ContacteUs.subjectOther(driver).sendKeys("");
         ContacteUs.senderEmail(driver).sendKeys("");

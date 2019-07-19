@@ -16,7 +16,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
 
-public class MyOrdersUploadFileTest extends WebDriverSettings {
+public class MyOrdersUploadFile extends WebDriverSettings {
 
     public static void setClipboardData(String string) {
         StringSelection stringSelection = new StringSelection(string);

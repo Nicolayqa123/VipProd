@@ -53,43 +53,38 @@ public class LoginTest extends WebDriverSettings {
 
         }
 
+        @Test
         public void UnLoginNoValid() throws InterruptedException {
 
             driver.get(Writer_ProdUrl);
-            WebElement login = driver.findElement(By.xpath("/html/body/div[1]/div/div/div[1]/header/div/div[2]/nav/ul/li[11]/a"));
-            WebElement username = driver.findElement(By.xpath("/html/body/div[1]/div/div/div[1]/div/div/form/div/div[2]/input"));
-            WebElement password = driver.findElement(By.xpath("/html/body/div[1]/div/div/div[1]/div/div/form/div/div[3]/input"));
-            WebElement loginButton = driver.findElement(By.xpath("/html/body/div[1]/div/div/div[1]/div/div/form/div/div[4]/input"));
-            driver.manage().timeouts().implicitlyWait(9000, TimeUnit.SECONDS);
-            TimeUnit.SECONDS.sleep(3);
-            login.click();
-            TimeUnit.SECONDS.sleep(2);
-            username.sendKeys("asdasd@ya.ru");
-            password.sendKeys("asdasdasd");
-            loginButton.click();
-            TimeUnit.SECONDS.sleep(1);
+            TimeUnit.SECONDS.sleep(5);
+
+            driver.findElementByXPath("//*[@id=\"sign-in-button\"]").click();
+            TimeUnit.SECONDS.sleep(5);
+            Lending.userName(driver).click();
+            Lending.userName(driver).sendKeys("test333@@ya.ru");
+            Lending.password(driver).sendKeys(pass);
+            Lending.loginButton(driver).click();
+            TimeUnit.SECONDS.sleep(7);
             assertEquals("Please enter a correct username and password.", driver.findElement(By.cssSelector(".label")).getText());
-        }
-
-
-        public void UnLoginEmptyFields() throws InterruptedException {
-
-            driver.get("https://writer.urgentpapers.org/");
-            WebElement login = driver.findElement(By.xpath("/html/body/div[1]/div/div/div[1]/header/div/div[2]/nav/ul/li[11]/a"));
-            WebElement username = driver.findElement(By.xpath("/html/body/div[1]/div/div/div[1]/div/div/form/div/div[2]/input"));
-            WebElement password = driver.findElement(By.xpath("/html/body/div[1]/div/div/div[1]/div/div/form/div/div[3]/input"));
-            WebElement loginButton = driver.findElement(By.xpath("/html/body/div[1]/div/div/div[1]/div/div/form/div/div[4]/input"));
-            driver.manage().timeouts().implicitlyWait(9000, TimeUnit.SECONDS);
-            TimeUnit.SECONDS.sleep(3);
-            login.click();
-            TimeUnit.SECONDS.sleep(2);
-            loginButton.click();
-            TimeUnit.SECONDS.sleep(1);
-            assertEquals("Please enter a correct username and password.", driver.findElement(By.cssSelector(".label")).getText());
-
         }
 
         @Test
+        public void UnLoginEmptyFields() throws InterruptedException {
+            driver.get(Writer_ProdUrl);
+            TimeUnit.SECONDS.sleep(5);
+            driver.findElementByXPath("//*[@id=\"sign-in-button\"]").click();
+            TimeUnit.SECONDS.sleep(5);
+            Lending.userName(driver).click();
+            Lending.userName(driver).sendKeys("");
+            Lending.password(driver).sendKeys("");
+            Lending.loginButton(driver).click();
+            TimeUnit.SECONDS.sleep(7);
+            assertEquals("Please enter a correct username and password.", driver.findElement(By.cssSelector(".label")).getText());
+
+        }
+
+
     public void LoginPaptest1() throws Exception {
         driver.get(ProPapers_ProdUrl);
 

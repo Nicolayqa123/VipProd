@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
 
-public class MyOrderDetailedOrderViewTest extends WebDriverSettings {
+public class MyOrderDetailedOrderView extends WebDriverSettings {
     @Test
     public void orderView () throws Exception {
 

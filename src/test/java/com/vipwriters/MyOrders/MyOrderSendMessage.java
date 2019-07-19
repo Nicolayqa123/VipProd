@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
 
-public class MyOrderSendMessageTest extends WebDriverSettings {
+public class MyOrderSendMessage extends WebDriverSettings {
     @Test
     public void SendMessageToClient1 () throws Exception {
 

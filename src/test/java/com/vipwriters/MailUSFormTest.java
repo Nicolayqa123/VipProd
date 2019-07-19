@@ -17,7 +17,7 @@ public class MailUSFormTest extends WebDriverSettings {
         TimeUnit.SECONDS.sleep(8);
         MailUs.mailUs(driver).click();
         MailUs.subjectQuestion(driver).click();
-        for (int i = 1; i <= 5; i++) {
+        for (int i = 1; i <= 3; i++) {
             MailUs.message(driver).sendKeys("test text mail US");
             MailUs.message(driver).sendKeys(" ");
         }

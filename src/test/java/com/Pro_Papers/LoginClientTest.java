@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
 
-public class LoginClient extends WebDriverSettings {
+public class LoginClientTest extends WebDriverSettings {
 
     @Test
     public void Login1() throws InterruptedException {
@@ -20,7 +20,7 @@ public class LoginClient extends WebDriverSettings {
         driver.findElement(loginClientPassword).sendKeys(passPro);
         driver.findElement(loginClientSubmit).click();
         TimeUnit.SECONDS.sleep(10);
-        Assert.assertFalse("NicolayQA", Boolean.parseBoolean(driver.findElementByXPath("//*[@id=\"mm-0\"]/div[3]/div/div[1]/div[1]/div[2]/span[1]").getText()));
+        Assert.assertFalse("Nicolay", Boolean.parseBoolean(driver.findElementByCssSelector(".profile-name").getText()));
 
     }
 
@@ -33,17 +33,16 @@ public class LoginClient extends WebDriverSettings {
         driver.quit();
 
     }*/
-
+    @Test
     public void LoginUserWrongPassword()throws InterruptedException {
-        driver.get("https://client.urgentpapers.org/");
+        driver.get(ProPapers_ProdUrl);
 
         driver.findElement(loginClient).click();
-        driver.findElement(loginClientUserName).sendKeys("nicolayqa@gmail.com");
-            TimeUnit.SECONDS.sleep(3);
-        driver.findElement(loginClientPassword).sendKeys("asdasda456");
+        driver.findElement(loginClientUserName).sendKeys("Kallyan22@ya.ru");
+        driver.findElement(loginClientPassword).sendKeys("123456");
         driver.findElement(loginClientSubmit).click();
-            TimeUnit.SECONDS.sleep(2);
-        assertEquals("Invalid credentials", driver.findElement(By.xpath("//*[@id=\"myModal\"]/div/div/div[2]/div/div/div[1]/div[4]")).getText());
+        TimeUnit.SECONDS.sleep(2);
+        assertEquals("Please enter a correct username and password.", driver.findElement(By.xpath("//*[@id=\"toast-container\"]")).getText());
 
     }
 
