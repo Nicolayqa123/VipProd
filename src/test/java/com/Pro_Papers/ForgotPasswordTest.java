@@ -12,22 +12,23 @@ import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 
-public class ForgotPassword extends WebDriverSettings {
+public class ForgotPasswordTest extends WebDriverSettings {
     @Test
     public void forgotPassword1() throws InterruptedException {
-        driver.get("https://client.urgentpapers.org/");
+        driver.get(ProPapers_ProdUrl);
 
         Lending.login(driver).click();
         Lending.forgotPassword(driver).click();
-        Lending.mail(driver).sendKeys("test@test.ru");
+        Lending.mail(driver).sendKeys(mailPro);
         Lending.resetpassword(driver).click();
         TimeUnit.SECONDS.sleep(3);
-        assertEquals("We’ve sent you an email containing a link that will allow you to reset your password for the next 24 hours.", driver.findElement(By.xpath("/html/body/div[5]/div/div[3]/div[2]/p[1]")).getText());
+        assertEquals("We’ve sent you an email containing a link that will allow you to reset your password for the next 24 hours.",
+                driver.findElement(By.cssSelector("p.text-center:nth-child(1)")).getText());
 
     }
     @Test
     public void forgotPasswordWrongmail() throws InterruptedException {
-        driver.get("https://client.urgentpapers.org/");
+        driver.get(ProPapers_ProdUrl);
 
         Lending.login(driver).click();
         Lending.forgotPassword(driver).click();
@@ -39,7 +40,7 @@ public class ForgotPassword extends WebDriverSettings {
     }
     @Test
     public void forgotPasswordNoValid() throws InterruptedException {
-        driver.get("https://client.urgentpapers.org/");
+        driver.get(ProPapers_ProdUrl);
 
         Lending.login(driver).click();
         Lending.forgotPassword(driver).click();

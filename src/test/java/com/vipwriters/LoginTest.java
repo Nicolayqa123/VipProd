@@ -84,14 +84,4 @@ public class LoginTest extends WebDriverSettings {
 
         }
 
-
-    public void LoginPaptest1() throws Exception {
-        driver.get(ProPapers_ProdUrl);
-
-        driver.findElement(loginClient).click();
-        driver.findElement(loginClientUserName).sendKeys(mail);
-        driver.findElement(loginClientPassword).sendKeys(pass);
-        driver.findElement(loginClientSubmit).click();
-        TimeUnit.SECONDS.sleep(20);
-    }
 }

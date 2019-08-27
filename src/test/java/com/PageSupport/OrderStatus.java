@@ -32,9 +32,14 @@ public class OrderStatus {
         element = driver.findElement(By.xpath("//*[@id=\"main\"]/div[1]/div[1]/div[1]/div/div/div[1]/ul/li[6]"));
         return element;
     }
-
-
-
+    public static WebElement reason(WebDriver driver){
+        element = driver.findElement(By.cssSelector(".swal2-content > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > textarea:nth-child(1)\n"));
+        return element;
+    }
+    public static WebElement ok (WebDriver driver){
+        element = driver.findElement(By.cssSelector(".swal2-confirm"));
+        return element;
+    }
 
 
 }

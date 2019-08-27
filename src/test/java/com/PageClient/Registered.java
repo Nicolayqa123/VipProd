@@ -7,8 +7,8 @@ import org.openqa.selenium.WebElement;
 public class Registered {
     public static WebElement element = null;
 
-    public static WebElement onStep2 (WebDriver driver){
-        element = driver.findElement(By.id("go_to_step2_button"));
+    public static WebElement nextStep (WebDriver driver){
+        element = driver.findElement(By.cssSelector(".btn-lg"));
         return element;
     }
     public static WebElement FirstName (WebDriver driver){
@@ -31,4 +31,30 @@ public class Registered {
         element = driver.findElement(By.id("go_to_step2_button"));
         return element;
     }
+    public static WebElement topic (WebDriver driver){
+        element = driver.findElement(By.name("topic"));
+        return element;
+    }
+    public static WebElement number_of_references (WebDriver driver){
+        element = driver.findElement(By.xpath("/html/body/div[1]/div/div/div[2]/div[2]/div/div[3]/div/div/div/div/div/div[1]/div/div[1]/div/div[5]/div/input"));
+        return element;
+    }
+    public static WebElement paper_details (WebDriver driver){
+        element = driver.findElement(By.cssSelector("div.col-lg-12:nth-child(6) > div:nth-child(1) > textarea:nth-child(2)"));
+        return element;
+    }
+    public static WebElement subject (WebDriver driver){
+        element = driver.findElement(By.name("subject"));
+        return element;
+    }
+    public static WebElement paper_type (WebDriver driver){
+        element = driver.findElement(By.name("paper_type"));
+        return element;
+    }
+    public static WebElement pay (WebDriver driver){
+        element = driver.findElement(By.cssSelector(".btn-primary"));
+        return element;
+    }
+
+
 }
