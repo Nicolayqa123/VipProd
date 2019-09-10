@@ -2,35 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30a5b001-07cb-452b-a9d5-7ea217301538" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/PageClient/Order_Sign_Up.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/PageSupport/HintBox.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/CheckDiscount.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/NewOpderTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/RegisteredStep.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/Robot_TxtTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/support/CheckStepsOfSupportTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/test404Url.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/Banner.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/CalculatorTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/ContactUSTest.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Regression/CheckTitle.java" afterPath="$PROJECT_DIR$/src/test/java/Regression/CheckTitle.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageClient/Lending.java" afterPath="$PROJECT_DIR$/src/test/java/com/PageClient/Lending.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/PageClient/Registered.java" afterPath="$PROJECT_DIR$/src/test/java/com/PageClient/Registered.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageSupport/OrderStatus.java" afterPath="$PROJECT_DIR$/src/test/java/com/PageSupport/OrderStatus.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageWriter/DetailedOrder.java" afterPath="$PROJECT_DIR$/src/test/java/com/PageWriter/DetailedOrder.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/ForgotPassword.java" afterPath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/ForgotPasswordTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/RegisteredStep2.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/support/CheckStepsOfSupport.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/ContactUS.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Regression/CheckTitle.class" afterPath="$PROJECT_DIR$/target/test-classes/Regression/CheckTitle.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageClient/Lending.class" afterPath="$PROJECT_DIR$/target/test-classes/com/PageClient/Lending.class" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageClient/Registered.class" afterPath="$PROJECT_DIR$/target/test-classes/com/PageClient/Registered.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageSupport/OrderStatus.class" afterPath="$PROJECT_DIR$/target/test-classes/com/PageSupport/OrderStatus.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageWriter/DetailedOrder.class" afterPath="$PROJECT_DIR$/target/test-classes/com/PageWriter/DetailedOrder.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/ForgotPassword.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/RegisteredStep2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/support/CheckStepsOfSupport.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/LoginTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/LoginTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/WebDriverSettings$1.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/WebDriverSettings$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/NewOpder.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/WebDriverSettings.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/WebDriverSettings.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -44,33 +24,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="test404Url.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/test404Url.java">
+      <file leaf-file-name="NewOpderTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/NewOpderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="32" column="37" lean-forward="false" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Robot_TxtTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/Robot_TxtTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="1281">
+              <caret line="71" column="34" lean-forward="true" selection-start-line="71" selection-start-column="34" selection-end-line="71" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewOpderTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/NewOpderTest.java">
+      <file leaf-file-name="WebDriverSettings.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state relative-caret-position="7476">
+              <caret line="415" column="9" lean-forward="false" selection-start-line="415" selection-start-column="9" selection-end-line="415" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -86,53 +54,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DetailedOrder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/PageWriter/DetailedOrder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="38" column="111" lean-forward="false" selection-start-line="38" selection-start-column="111" selection-end-line="38" selection-end-column="111" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrderStatus.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/PageSupport/OrderStatus.java">
+      <file leaf-file-name="ContactUSTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/ContactUSTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="84">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HintBox.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/PageSupport/HintBox.java">
+      <file leaf-file-name="CalculatorTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/CalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="693">
+              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CheckTitle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Regression/CheckTitle.java">
+      <file leaf-file-name="ForgotPasswordTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/ForgotPasswordTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170247">
-              <caret line="8110" column="34" lean-forward="false" selection-start-line="8110" selection-start-column="4" selection-end-line="8110" selection-end-column="34" />
-              <folding>
-                <element signature="method#Check404andHref#0;class#CheckTitle#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="294">
+              <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebDriverSettings.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
+      <file leaf-file-name="Banner.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/Banner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3612">
-              <caret line="231" column="0" lean-forward="false" selection-start-line="231" selection-start-column="0" selection-end-line="231" selection-end-column="0" />
+            <state relative-caret-position="126">
+              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DetailedOrderView1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/UnpaidOrders/DetailedOrderView1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -141,8 +107,8 @@
       <file leaf-file-name="Registered.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/PageClient/Registered.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1092">
-              <caret line="54" column="65" lean-forward="false" selection-start-line="54" selection-start-column="65" selection-end-line="54" selection-end-column="65" />
+            <state relative-caret-position="1155">
+              <caret line="57" column="36" lean-forward="false" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -209,14 +175,16 @@
         <option value="$PROJECT_DIR$/src/test/java/com/Pro_Papers/RegisteredStep.java" />
         <option value="$PROJECT_DIR$/src/test/java/Regression/CheckTitle.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/test404Url.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/PageClient/Registered.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/PageWriter/DetailedOrder.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/support/CheckStepsOfSupport.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/support/CheckStepsOfSupportTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Pro_Papers/Robot_TxtTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Robot_TxtTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Pro_Papers/NewOpderTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/PageClient/Registered.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Pro_Papers/UnpaidOrders/Banner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Pro_Papers/CalculatorTest.java" />
       </list>
     </option>
   </component>
@@ -230,9 +198,9 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2121" />
-    <option name="y" value="9" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
     <option name="width" value="1938" />
     <option name="height" value="1048" />
   </component>
@@ -251,9 +219,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -286,6 +251,15 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VipProd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VipProd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="PageClient" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="VipProd" type="b2602c69:ProjectViewProjectNode" />
@@ -332,6 +306,9 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -339,13 +316,19 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../VipWriter" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Programms\GitHub\VipProd\src\test\java\com\Pro_Papers" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com" />
       <recent name="com.Pro_Papers" />
       <recent name="com.PageSupport" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Programms\GitHub\VipProd\src\test\java\com\Pro_Papers\UnpaidOrders" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -360,7 +343,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.NewOpderTest.NewOrder">
+  <component name="RunManager" selected="JUnit.Banner.BannerCheck">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -382,44 +365,19 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="CheckStepsOfSupportTest.stepsSupport" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Banner.BannerCheck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.support.*" />
+          <option name="PATTERN" value="com.Pro_Papers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="VipProd" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.support" />
-      <option name="MAIN_CLASS_NAME" value="com.support.CheckStepsOfSupportTest" />
-      <option name="METHOD_NAME" value="stepsSupport" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="CheckTitle.Check404andHrefStage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Regression.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="VipProd" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Regression" />
-      <option name="MAIN_CLASS_NAME" value="Regression.CheckTitle" />
-      <option name="METHOD_NAME" value="Check404andHrefStage" />
+      <option name="PACKAGE_NAME" value="com.Pro_Papers" />
+      <option name="MAIN_CLASS_NAME" value="com.Pro_Papers.Banner" />
+      <option name="METHOD_NAME" value="BannerCheck" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -482,7 +440,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="WebDriverSettings.LoginNewInquiry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WebDriverSettings.NewOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.vipwriters.*" />
@@ -494,7 +452,32 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.vipwriters" />
       <option name="MAIN_CLASS_NAME" value="com.vipwriters.WebDriverSettings" />
-      <option name="METHOD_NAME" value="LoginNewInquiry" />
+      <option name="METHOD_NAME" value="NewOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="WebDriverSettings.NewOrder1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.vipwriters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="VipProd" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.vipwriters" />
+      <option name="MAIN_CLASS_NAME" value="com.vipwriters.WebDriverSettings" />
+      <option name="METHOD_NAME" value="NewOrder1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -568,19 +551,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.CheckTitle.Check404andHrefStage" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CheckStepsOfSupportTest.stepsSupport" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.WebDriverSettings.LoginNewInquiry" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.Robot_TxtTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.NewOpderTest.NewOrder" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.Robot_TxtTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.NewOpderTest.NewOrder" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.WebDriverSettings.NewOrder" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.WebDriverSettings.NewOrder1" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.Banner.BannerCheck" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.NewOpderTest.NewOrder" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Robot_TxtTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CheckStepsOfSupportTest.stepsSupport" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.WebDriverSettings.LoginNewInquiry" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CheckTitle.Check404andHrefStage" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.Banner.BannerCheck" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.WebDriverSettings.NewOrder1" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.WebDriverSettings.NewOrder" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.NewOpderTest.NewOrder" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.Robot_TxtTest" />
       </list>
     </recent_temporary>
   </component>
@@ -635,46 +618,50 @@
       <workItem from="1565854630120" duration="7970000" />
       <workItem from="1566308146266" duration="1524000" />
       <workItem from="1566467884309" duration="556000" />
+      <workItem from="1566910536156" duration="532000" />
+      <workItem from="1567068927909" duration="325000" />
+      <workItem from="1568038674289" duration="3102000" />
+      <workItem from="1568116433784" duration="1674000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CheckStepsOfSupport_stepsSupport - 2019.08.15 at 14h 59m 46s.xml">
-      <configuration name="CheckStepsOfSupport.stepsSupport" configurationId="JUnit" />
+    <history-entry file="Banner_BannerCheck - 2019.09.09 at 17h 45m 12s.xml">
+      <configuration name="Banner.BannerCheck" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckStepsOfSupport_stepsSupport - 2019.08.15 at 15h 02m 07s.xml">
-      <configuration name="CheckStepsOfSupport.stepsSupport" configurationId="JUnit" />
+    <history-entry file="Banner_BannerCheck - 2019.09.09 at 17h 46m 27s.xml">
+      <configuration name="Banner.BannerCheck" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckStepsOfSupport_stepsSupport - 2019.08.15 at 15h 03m 47s.xml">
-      <configuration name="CheckStepsOfSupport.stepsSupport" configurationId="JUnit" />
+    <history-entry file="Banner_BannerCheck - 2019.09.09 at 17h 52m 07s.xml">
+      <configuration name="Banner.BannerCheck" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckStepsOfSupport_stepsSupport - 2019.08.15 at 15h 05m 20s.xml">
-      <configuration name="CheckStepsOfSupport.stepsSupport" configurationId="JUnit" />
+    <history-entry file="Banner_BannerCheck - 2019.09.09 at 17h 53m 47s.xml">
+      <configuration name="Banner.BannerCheck" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckStepsOfSupport_stepsSupport - 2019.08.15 at 15h 07m 36s.xml">
-      <configuration name="CheckStepsOfSupport.stepsSupport" configurationId="JUnit" />
+    <history-entry file="Banner_BannerCheck - 2019.09.09 at 17h 55m 11s.xml">
+      <configuration name="Banner.BannerCheck" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckStepsOfSupport_stepsSupport - 2019.08.15 at 15h 16m 46s.xml">
-      <configuration name="CheckStepsOfSupport.stepsSupport" configurationId="JUnit" />
+    <history-entry file="Banner_BannerCheck - 2019.09.09 at 17h 56m 43s.xml">
+      <configuration name="Banner.BannerCheck" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckStepsOfSupport_stepsSupport - 2019.08.15 at 15h 23m 23s.xml">
-      <configuration name="CheckStepsOfSupport.stepsSupport" configurationId="JUnit" />
+    <history-entry file="Banner_BannerCheck - 2019.09.09 at 18h 04m 29s.xml">
+      <configuration name="Banner.BannerCheck" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NewOpder_NewOrder - 2019.08.20 at 17h 21m 41s.xml">
-      <configuration name="NewOpder.NewOrder" configurationId="JUnit" />
+    <history-entry file="Banner_BannerCheck - 2019.09.09 at 18h 09m 11s.xml">
+      <configuration name="Banner.BannerCheck" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Robot_TxtTest - 2019.08.15 at 15h 43m 17s.xml">
-      <configuration name="Robot_TxtTest" configurationId="JUnit" />
+    <history-entry file="WebDriverSettings_NewOrder1 - 2019.09.09 at 17h 32m 21s.xml">
+      <configuration name="WebDriverSettings.NewOrder1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WebDriverSettings_LoginNewInquiry - 2019.08.15 at 14h 37m 43s.xml">
-      <configuration name="WebDriverSettings.LoginNewInquiry" configurationId="JUnit" />
+    <history-entry file="WebDriverSettings_NewOrder1 - 2019.09.09 at 17h 33m 27s.xml">
+      <configuration name="WebDriverSettings.NewOrder1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111508000" />
+    <option name="totallyTimeSpent" value="117141000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2391" y="15" width="2118" height="1281" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -685,11 +672,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.336374" sideWeight="0.5021482" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33603603" sideWeight="0.49785176" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33523375" sideWeight="0.49785176" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23751225" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2508056" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -719,34 +706,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/available/AvailableDetailedOrderViewTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/available/AvailableDownloadFiles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/available/AvailableFilterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/available/AvailableSearchTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/available/AvailableSendMessageInOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -873,20 +832,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/ForgotPasswordTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="34" column="51" lean-forward="false" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/ContactUS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/LoginClientTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -972,14 +917,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/RegisteredStep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="36" column="33" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1407">
@@ -999,9 +936,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170247">
           <caret line="8110" column="34" lean-forward="false" selection-start-line="8110" selection-start-column="4" selection-end-line="8110" selection-end-column="34" />
-          <folding>
-            <element signature="method#Check404andHref#0;class#CheckTitle#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1009,7 +943,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1017,23 +950,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/PageClient/Registered.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1092">
-          <caret line="54" column="65" lean-forward="false" selection-start-line="54" selection-start-column="65" selection-end-line="54" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3612">
-          <caret line="231" column="0" lean-forward="false" selection-start-line="231" selection-start-column="0" selection-end-line="231" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1041,15 +957,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
           <caret line="38" column="111" lean-forward="false" selection-start-line="38" selection-start-column="111" selection-end-line="38" selection-end-column="111" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/support/CheckStepsOfSupportTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="31" column="35" lean-forward="false" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1072,10 +979,90 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/RegisteredStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="36" column="33" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/PageClient/Registered.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="57" column="36" lean-forward="false" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7476">
+          <caret line="415" column="9" lean-forward="false" selection-start-line="415" selection-start-column="9" selection-end-line="415" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/UnpaidOrders/DetailedOrderView1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/Banner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/CalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/NewOpderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        <state relative-caret-position="1281">
+          <caret line="71" column="34" lean-forward="true" selection-start-line="71" selection-start-column="34" selection-end-line="71" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/support/CheckStepsOfSupportTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="31" column="35" lean-forward="false" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/ContactUS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/ContactUSTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/ForgotPasswordTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
           <folding />
         </state>
       </provider>
