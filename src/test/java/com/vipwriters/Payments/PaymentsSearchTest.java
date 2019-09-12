@@ -17,7 +17,7 @@ public class PaymentsSearchTest extends WebDriverSettings {
         WritersLogin();
         Transactions.transactions(driver).click();
         Transactions.search(driver).sendKeys("38998");
-        assertEquals("38998", driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div[2]/table/tbody/tr[1]/td[4]")).getText());
+        assertEquals("34372", driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div[2]/table/tbody/tr[1]/td[4]")).getText());
 
     }
 }

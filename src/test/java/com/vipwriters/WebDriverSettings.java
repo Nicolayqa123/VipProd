@@ -90,6 +90,8 @@ public class WebDriverSettings   {
 
 
     public String defis = "’";
+    public String forg_pass_text = "The password reset link was sent to your email. Please click it to change your password.\\n\" +\n" +
+            "                \"If you can’t find this link, please contact us at manager@vip-writers.com.";
     String[] url_for_check = {"https://client.urgentpapers.org/", "https://client.urgentpapers.org/123", "https://client.urgentpapers.org/asdas"};
 
     /*@Rule
@@ -167,7 +169,7 @@ public class WebDriverSettings   {
             driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
             driver.manage().timeouts().setScriptTimeout(50, TimeUnit.SECONDS);
             driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
-          //  driver.manage().window().setSize(new Dimension(1500, 960));
+            driver.manage().window().setSize(new Dimension(1600, 1050));
             driver.manage().window().maximize();
 
 
@@ -271,8 +273,8 @@ public class WebDriverSettings   {
         driver.findElementByCssSelector(".top-buttons-block > a:nth-child(2)").click();
         // driver.get("https://Pro-Papers.com/order");
         //  Lending.Order_Now(driver).click();
-        Registered.paper_type(driver).sendKeys(paper_typeList);
-        Registered.subject(driver).sendKeys(subjectList);
+        Registered.paper_type(driver).sendKeys(paper_typeChoose[vb]);
+        Registered.subject(driver).sendKeys(subjectChoose[va]);
         Registered.topic(driver).sendKeys("Test order Test");
         Select paper_format = new Select(driver.findElement(By.name("paper_format")));
         paper_format.selectByValue(String.valueOf(z));
@@ -325,7 +327,7 @@ public class WebDriverSettings   {
         robot.keyRelease(KeyEvent.VK_ENTER);
     }
 
-    public void WritersLoginNic() {
+    public void WritersLoginNic() throws InterruptedException {
         driver.get("https://writer.urgentpapers.org");
 
         WebElement login = driver.findElement(By.xpath("//*[@id=\"wrapper\"]/header/div/div[2]/nav/ul/li[10]/a"));
@@ -334,36 +336,15 @@ public class WebDriverSettings   {
         WebElement loginButton = driver.findElement(By.xpath("//*[@id=\"signinForm\"]/div/div[4]/input"));
 
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-
-        try {
             TimeUnit.SECONDS.sleep(3);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
         login.click();
-        try {
             TimeUnit.SECONDS.sleep(3);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
         username.sendKeys("NicolayQa@gmail.com");
-        try {
             TimeUnit.SECONDS.sleep(3);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
         password.sendKeys("nicolayqa");
-        try {
             TimeUnit.SECONDS.sleep(3);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
         loginButton.click();
-                try {
-                    TimeUnit.SECONDS.sleep(5);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
+        TimeUnit.SECONDS.sleep(5);
     }
     public void NewOrderNotPay() throws Exception {
     Random r = new Random();
@@ -402,8 +383,8 @@ public class WebDriverSettings   {
         //  driver.findElementByCssSelector(".btn-warning").click();
         // driver.get("https://Pro-Papers.com/order");
        // Lending.Order_Now(driver).click();
-        Registered.paper_type(driver).sendKeys(paper_typeList);
-        Registered.subject(driver).sendKeys(subjectList);
+        Registered.paper_type(driver).sendKeys(paper_typeChoose[vb]);
+        Registered.subject(driver).sendKeys(subjectChoose[va]);
         Registered.topic(driver).sendKeys("Test order Test");
         Select paper_format = new Select(driver.findElement(By.name("paper_format")));
         paper_format.selectByValue(String.valueOf(z));
