@@ -56,7 +56,7 @@ public class Registered {
         return element;
     }
     public static WebElement discount (WebDriver driver){
-        element = driver.findElement(By.cssSelector("div.col-xl-3:nth-child(2) > div:nth-child(2) > input:nth-child(2)"));
+        element = driver.findElement(By.cssSelector("#details > div > div:nth-child(2) > div.inputs-block > input"));
         return element;
     }
 

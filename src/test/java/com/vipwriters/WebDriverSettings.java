@@ -28,6 +28,10 @@ import org.openqa.selenium.firefox.FirefoxBinary;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.logging.LogEntries;
+import org.openqa.selenium.logging.LogEntry;
+import org.openqa.selenium.logging.LogType;
+import org.openqa.selenium.logging.Logs;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -85,7 +89,8 @@ public class WebDriverSettings   {
 
 
 
-
+    public String defis = "’";
+    String[] url_for_check = {"https://client.urgentpapers.org/", "https://client.urgentpapers.org/123", "https://client.urgentpapers.org/asdas"};
 
     /*@Rule
     public TestWatcher screenshotOnFailure = new TestWatcher() {
@@ -151,6 +156,11 @@ public class WebDriverSettings   {
 
         @Override
         protected void starting(Description description) {
+
+
+
+
+
             System.setProperty("webdriver.gecko.driver", "driver/geckodriver.exe");
             driver = new FirefoxDriver();
 
@@ -159,6 +169,9 @@ public class WebDriverSettings   {
             driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
           //  driver.manage().window().setSize(new Dimension(1500, 960));
             driver.manage().window().maximize();
+
+
+
         }
 
         @Override
@@ -166,19 +179,19 @@ public class WebDriverSettings   {
             driver.quit();
         }
 
-       /* @Override
+        @Override
         protected void failed(Throwable e, Description description) {
             String newAutoTest = "TestFailure";
             File screenshot = ((TakesScreenshot) driver).
                     getScreenshotAs(OutputType.FILE);
-            String path = "C:\\Programms\\GitHub\\VipWriter\\screenshot\\" + getClass() + screenshot.getName();
+            String path = "C:\\Programms\\GitHub\\VipProd\\screen\\" + getClass() + screenshot.getName();
             try {
                 FileUtils.copyFile(screenshot, new File(path));
             } catch (IOException e1) {
                 e1.printStackTrace();
             }
         }
-*/
+
 
 
 
@@ -352,7 +365,6 @@ public class WebDriverSettings   {
                     e.printStackTrace();
                 }
     }
-    @Test
     public void NewOrderNotPay() throws Exception {
     Random r = new Random();
     int x = r.nextInt(90000) + 1;
@@ -385,7 +397,7 @@ public class WebDriverSettings   {
 
 
 
-        driver.get(ProPapers_StageUrl + "order");
+       // driver.get("https://pro-papers.com/order");
         TimeUnit.SECONDS.sleep(2);
         //  driver.findElementByCssSelector(".btn-warning").click();
         // driver.get("https://Pro-Papers.com/order");

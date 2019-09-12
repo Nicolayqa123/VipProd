@@ -13,10 +13,11 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
-public class PayToOrderTest extends WebDriverSettings {
+public class PayToOrder extends WebDriverSettings {
     @Test
     public void orderPay () throws Exception {
         LoginPap();
+
         Page.Previous_Orders(driver).click();
         JavascriptExecutor jse = (JavascriptExecutor) driver;
         jse.executeScript("scroll(0, -350);");

@@ -13,7 +13,7 @@ import static org.junit.Assert.assertEquals;
 public class CalculatorTest extends WebDriverSettings {
     @Test
     public void Check_Calculator () throws Exception {
-        driver.get(ProPapers_StageUrl);
+        driver.get(ProPapers_ProdUrl);
 
         JavascriptExecutor jse = (JavascriptExecutor) driver;
         TimeUnit.SECONDS.sleep(2);

@@ -22,7 +22,7 @@ public class ForgotPasswordTest extends WebDriverSettings {
         Lending.mail(driver).sendKeys(mailPro);
         Lending.resetpassword(driver).click();
         TimeUnit.SECONDS.sleep(3);
-        assertEquals("We’ve sent you an email containing a link that will allow you to reset your password for the next 24 hours.",
+        assertEquals("We"+ defis +"ve sent you an email containing a link that will allow you to reset your password for the next 24 hours.",
                 driver.findElement(By.cssSelector("p.text-center:nth-child(1)")).getText());
 
     }
@@ -35,7 +35,7 @@ public class ForgotPasswordTest extends WebDriverSettings {
         Lending.mail(driver).sendKeys("test@456.ru");
         Lending.resetpassword(driver).click();
         TimeUnit.SECONDS.sleep(3);
-        assertFalse( driver.findElement(By.xpath("/html/body/div[5]/div/div[3]/div[2]/p[1]")).getText().contains("We’ve sent you an email containing a link that will allow you to reset your password for the next 24 hours."));
+        assertFalse( driver.findElement(By.xpath("/html/body/div[5]/div/div[3]/div[2]/p[1]")).getText().contains("We" + defis + "ve sent you an email containing a link that will allow you to reset your password for the next 24 hours."));
 
     }
     @Test
