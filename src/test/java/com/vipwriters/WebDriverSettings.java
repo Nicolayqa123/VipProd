@@ -244,7 +244,6 @@ public class WebDriverSettings   {
         driver.findElementByCssSelector(".btn").click();
         TimeUnit.SECONDS.sleep(5);
     }
-    @Test
 
     public void LoginNewInquiry() throws Exception {
         Random r = new Random();

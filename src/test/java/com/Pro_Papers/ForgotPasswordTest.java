@@ -20,7 +20,7 @@ public class ForgotPasswordTest extends WebDriverSettings {
         Lending.mail(driver).sendKeys(mailPro);
         Lending.resetpassword(driver).click();
         TimeUnit.SECONDS.sleep(3);
-        assertEquals("Please check your spam folder if the email doesn’t appear within a few minutes.",
+        assertEquals("Please check your spam folder if the email doesn't appear within a few minutes.",
                 driver.findElement(By.cssSelector("#success-reset > div.modal-body.grey-input-wrapper > p:nth-child(2)")).getText());
 
     }
@@ -33,7 +33,7 @@ public class ForgotPasswordTest extends WebDriverSettings {
         Lending.mail(driver).sendKeys("test@456.ru");
         Lending.resetpassword(driver).click();
         TimeUnit.SECONDS.sleep(3);
-        assertEquals("Please check your spam folder if the email doesn’t appear within a few minutes.",
+        assertEquals("Please check your spam folder if the email doesn't appear within a few minutes.",
                 driver.findElement(By.cssSelector("#success-reset > div.modal-body.grey-input-wrapper > p:nth-child(2)")).getText());
 
     }
