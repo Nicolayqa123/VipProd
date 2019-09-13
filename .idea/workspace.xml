@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30a5b001-07cb-452b-a9d5-7ea217301538" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/ForgotPasswordTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/ForgotPasswordTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" />
-    </list>
+    <list default="true" id="30a5b001-07cb-452b-a9d5-7ea217301538" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -611,7 +608,7 @@
       <workItem from="1568116433784" duration="5244000" />
       <workItem from="1568184892840" duration="15272000" />
       <workItem from="1568270705110" duration="18006000" />
-      <workItem from="1568374489213" duration="4147000" />
+      <workItem from="1568374489213" duration="4203000" />
     </task>
     <servers />
   </component>
@@ -648,7 +645,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158136000" />
+    <option name="totallyTimeSpent" value="158192000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
