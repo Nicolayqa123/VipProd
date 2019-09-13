@@ -20,7 +20,6 @@ public class test404UrlTest extends WebDriverSettings {
 
     String urlCheck = "https://pro-papers.com/argumentative-essay-writing";
 
-    @Test
 
     public static void main(String[] args) {
 

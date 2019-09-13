@@ -169,7 +169,7 @@ public class WebDriverSettings   {
             driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
             driver.manage().timeouts().setScriptTimeout(50, TimeUnit.SECONDS);
             driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
-            driver.manage().window().setSize(new Dimension(1600, 1050));
+          //  driver.manage().window().setSize(new Dimension(1600, 1050));
             driver.manage().window().maximize();
 
 
@@ -244,6 +244,7 @@ public class WebDriverSettings   {
         driver.findElementByCssSelector(".btn").click();
         TimeUnit.SECONDS.sleep(5);
     }
+    @Test
 
     public void LoginNewInquiry() throws Exception {
         Random r = new Random();
@@ -298,7 +299,7 @@ public class WebDriverSettings   {
         jse.executeScript("scroll(0, 550);");
         TimeUnit.SECONDS.sleep(4);
         Registered.pay(driver).click();
-        Registered.pay(driver).click();
+//        Registered.pay(driver).click();
         TimeUnit.SECONDS.sleep(5);
         /*TimeUnit.SECONDS.sleep(10);
       String IdOrder = driver.findElementByCssSelector(".order-h3 > span:nth-child(1)").getText();

@@ -1,6 +1,7 @@
 package com.vipwriters;
 
 import com.PageWriter.Lending;
+import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -9,6 +10,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 public class ForgotPasswordTest extends WebDriverSettings {
 
@@ -22,7 +24,14 @@ public class ForgotPasswordTest extends WebDriverSettings {
         Lending.forgotPasswordMail(driver).sendKeys(mail);
         Lending.forgotPasswordSend(driver).click();
 
-        assertEquals(forg_pass_text, driver.findElement(By.xpath("//*[@id=\"sendResetPasswordEmailForm\"]/p")).getText());
+       // assertTrue(driver.findElement(By.xpath("//*[@id=\"sendResetPasswordEmailForm\"]/p")).getText().contentEquals("The password reset link was sent to your email. Please click it to change your password.\n" +
+       //         "If you please contact us at manager@vip-writers.com."));
+
+    Assert.assertTrue("The password reset link was sent to your email. Please click it to change your password.\n" +
+            "If you can’t find this link, please contact us at manager@vip-writers.com." ,driver.findElement(By.xpath("//*[@id=\"sendResetPasswordEmailForm\"]/p")).getText().contentEquals("The password reset link was sent to your email. Please click it to change your password.\n" +
+            "If you can’t find this link, please contact us at manager@vip-writers.com."));
+    Assert.assertEquals("The password reset link was sent to your email. Please click it to change your password.\n" +
+            "If you , please contact us at manager@vip-writers.com." ,driver.findElement(By.xpath("//*[@id=\"sendResetPasswordEmailForm\"]/p")).getText());
     }
 
 @Test

@@ -33,11 +33,11 @@ public class OrderStatus {
         return element;
     }
     public static WebElement reason(WebDriver driver){
-        element = driver.findElement(By.cssSelector(".swal2-content > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > textarea:nth-child(1)\n"));
+        element = driver.findElement(By.xpath("//*[@id=\"bootstrap-modal\"]/div/div/div/div[2]/div/div[2]/div/div/div/textarea"));
         return element;
     }
     public static WebElement ok (WebDriver driver){
-        element = driver.findElement(By.cssSelector(".swal2-confirm"));
+        element = driver.findElement(By.xpath("//*[@id=\"bootstrap-modal\"]/div/div/div/div[2]/div/div[3]/button[1]"));
         return element;
     }
 

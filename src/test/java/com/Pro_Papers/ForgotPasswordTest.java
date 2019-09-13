@@ -8,9 +8,7 @@ import org.openqa.selenium.WebElement;
 
 import java.util.concurrent.TimeUnit;
 
-import static org.junit.Assert.assertArrayEquals;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.*;
 
 public class ForgotPasswordTest extends WebDriverSettings {
     @Test
@@ -22,8 +20,8 @@ public class ForgotPasswordTest extends WebDriverSettings {
         Lending.mail(driver).sendKeys(mailPro);
         Lending.resetpassword(driver).click();
         TimeUnit.SECONDS.sleep(3);
-        assertEquals("We"+ defis +"ve sent you an email containing a link that will allow you to reset your password for the next 24 hours.",
-                driver.findElement(By.cssSelector("p.text-center:nth-child(1)")).getText());
+        assertEquals("Please check your spam folder if the email doesn’t appear within a few minutes.",
+                driver.findElement(By.cssSelector("#success-reset > div.modal-body.grey-input-wrapper > p:nth-child(2)")).getText());
 
     }
     @Test
@@ -35,7 +33,8 @@ public class ForgotPasswordTest extends WebDriverSettings {
         Lending.mail(driver).sendKeys("test@456.ru");
         Lending.resetpassword(driver).click();
         TimeUnit.SECONDS.sleep(3);
-        assertFalse( driver.findElement(By.xpath("/html/body/div[5]/div/div[3]/div[2]/p[1]")).getText().contains("We" + defis + "ve sent you an email containing a link that will allow you to reset your password for the next 24 hours."));
+        assertEquals("Please check your spam folder if the email doesn’t appear within a few minutes.",
+                driver.findElement(By.cssSelector("#success-reset > div.modal-body.grey-input-wrapper > p:nth-child(2)")).getText());
 
     }
     @Test
