@@ -79,7 +79,7 @@ public class ContactFormTest extends WebDriverSettings {
         JavascriptExecutor jse = (JavascriptExecutor) driver;
         jse.executeScript("scroll(0, 900);");
         ContacteUs.messageText(driver).sendKeys("Testeeeeeeeee");
-        jse.executeScript("scroll(0, 1900);");
+        jse.executeScript("scroll(0, 2100);");
         ContacteUs.send(driver).click();
         TimeUnit.SECONDS.sleep(4);
         assertTrue( driver.findElement(By.xpath("//*[@id=\"toast-container\"]")).getText().contains("Your message has been sent succesfully!"));

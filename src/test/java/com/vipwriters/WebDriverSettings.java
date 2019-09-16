@@ -85,7 +85,8 @@ public class WebDriverSettings   {
     public String Writer_StageUrl = "https://writer.urgentpapers.org";
     public String Writer_ProdUrl = "https://vip-writers.com";
     public String ProPapers_StageUrl = "https://client.urgentpapers.org/";
-    public String ProPapers_ProdUrl = "https://pro-papers.com";
+    public String ProPapers_ProdUrl = "https://client.urgentpapers.org/";
+  //  public String ProPapers_ProdUrl = "https://pro-papers.com";
 
 
 
@@ -244,7 +245,7 @@ public class WebDriverSettings   {
         driver.findElementByCssSelector(".btn").click();
         TimeUnit.SECONDS.sleep(5);
     }
-
+@Test
     public void LoginNewInquiry() throws Exception {
         Random r = new Random();
         int x = r.nextInt(90000) + 1;
@@ -270,6 +271,7 @@ public class WebDriverSettings   {
 
 
         LoginPap();
+
         driver.findElementByCssSelector(".top-buttons-block > a:nth-child(2)").click();
         // driver.get("https://Pro-Papers.com/order");
         //  Lending.Order_Now(driver).click();
@@ -297,7 +299,7 @@ public class WebDriverSettings   {
         JavascriptExecutor jse = (JavascriptExecutor) driver;
         jse.executeScript("scroll(0, 550);");
         TimeUnit.SECONDS.sleep(4);
-        Registered.pay(driver).click();
+ //       Registered.pay(driver).click();
 //        Registered.pay(driver).click();
         TimeUnit.SECONDS.sleep(5);
         /*TimeUnit.SECONDS.sleep(10);
