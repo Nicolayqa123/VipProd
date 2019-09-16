@@ -32,7 +32,7 @@ public class CheckStepsOfSupportTest extends WebDriverSettings {
         driver.manage().window().maximize();
 
         //  String number = "46913";
-
+        System.out.println(number);
 
 
 

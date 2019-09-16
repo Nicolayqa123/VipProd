@@ -27,11 +27,11 @@ public class ForgotPasswordTest extends WebDriverSettings {
        // assertTrue(driver.findElement(By.xpath("//*[@id=\"sendResetPasswordEmailForm\"]/p")).getText().contentEquals("The password reset link was sent to your email. Please click it to change your password.\n" +
        //         "If you please contact us at manager@vip-writers.com."));
 
-    Assert.assertTrue("The password reset link was sent to your email. Please click it to change your password.\n" +
-            "If you can’t find this link, please contact us at manager@vip-writers.com." ,driver.findElement(By.xpath("//*[@id=\"sendResetPasswordEmailForm\"]/p")).getText().contentEquals("The password reset link was sent to your email. Please click it to change your password.\n" +
-            "If you can’t find this link, please contact us at manager@vip-writers.com."));
+  //  Assert.assertTrue("The password reset link was sent to your email. Please click it to change your password.\n" +
+  //          "If you can’t find this link, please contact us at manager@vip-writers.com." ,driver.findElement(By.xpath("//*[@id=\"sendResetPasswordEmailForm\"]/p")).getText().contentEquals("The password reset link was sent to your email. Please click it to change your password.\n" +
+  //          "If you can’t find this link, please contact us at manager@vip-writers.com."));
     Assert.assertEquals("The password reset link was sent to your email. Please click it to change your password.\n" +
-            "If you , please contact us at manager@vip-writers.com." ,driver.findElement(By.xpath("//*[@id=\"sendResetPasswordEmailForm\"]/p")).getText());
+            "If you can’t find this link, please contact us at manager@vip-writers.com." ,driver.findElement(By.xpath("//*[@id=\"sendResetPasswordEmailForm\"]/p")).getText());
     }
 
 @Test
