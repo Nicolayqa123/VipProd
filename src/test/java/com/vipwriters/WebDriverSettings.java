@@ -85,8 +85,8 @@ public class WebDriverSettings   {
     public String Writer_StageUrl = "https://writer.urgentpapers.org";
     public String Writer_ProdUrl = "https://vip-writers.com";
     public String ProPapers_StageUrl = "https://client.urgentpapers.org/";
-  //  public String ProPapers_ProdUrl = "https://client.urgentpapers.org/";
-    public String ProPapers_ProdUrl = "https://pro-papers.com";
+    public String ProPapers_ProdUrl = "https://client.urgentpapers.org/";
+  //  public String ProPapers_ProdUrl = "https://pro-papers.com";
 
 
 
