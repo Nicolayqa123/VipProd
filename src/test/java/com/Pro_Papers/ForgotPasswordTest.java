@@ -11,7 +11,6 @@ import java.util.concurrent.TimeUnit;
 import static org.junit.Assert.*;
 
 public class ForgotPasswordTest extends WebDriverSettings {
-    @Test
     public void forgotPassword1() throws InterruptedException {
         driver.get(ProPapers_ProdUrl);
 
@@ -33,8 +32,8 @@ public class ForgotPasswordTest extends WebDriverSettings {
         Lending.mail(driver).sendKeys("test@456.ru");
         Lending.resetpassword(driver).click();
         TimeUnit.SECONDS.sleep(3);
-        assertEquals("Please check your spam folder if the email doesn't appear within a few minutes.",
-                driver.findElement(By.cssSelector("#success-reset > div.modal-body.grey-input-wrapper > p:nth-child(2)")).getText());
+        assertEquals("We’ve sent you an email containing a link that will allow you to reset your password for the next 24 hours.",
+                driver.findElement(By.cssSelector("//*[@id=\"success-reset\"]/div[2]/p[1]")).getText());
 
     }
     @Test

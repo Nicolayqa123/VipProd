@@ -29,7 +29,7 @@ public class CheckStepsOfSupportTest extends WebDriverSettings {
         TimeUnit.SECONDS.sleep(15);
         String number = driver.findElementByCssSelector(".order-h3 > span:nth-child(1)").getText();
         System.out.println(number);
-        driver.manage().window().maximize();
+      //  driver.manage().window().maximize();
 
         //  String number = "46913";
         System.out.println(number);

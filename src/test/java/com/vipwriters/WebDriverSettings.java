@@ -85,8 +85,8 @@ public class WebDriverSettings   {
     public String Writer_StageUrl = "https://writer.urgentpapers.org";
     public String Writer_ProdUrl = "https://vip-writers.com";
     public String ProPapers_StageUrl = "https://client.urgentpapers.org/";
-    public String ProPapers_ProdUrl = "https://client.urgentpapers.org/";
-  //  public String ProPapers_ProdUrl = "https://pro-papers.com";
+  //  public String ProPapers_ProdUrl = "https://client.urgentpapers.org/";
+    public String ProPapers_ProdUrl = "https://pro-papers.com";
 
 
 
@@ -245,7 +245,7 @@ public class WebDriverSettings   {
         driver.findElementByCssSelector(".btn").click();
         TimeUnit.SECONDS.sleep(5);
     }
-@Test
+
     public void LoginNewInquiry() throws Exception {
         Random r = new Random();
         int x = r.nextInt(90000) + 1;
@@ -262,10 +262,10 @@ public class WebDriverSettings   {
 
         String[] subjectChoose = {"Architecture", "Art history", "Aviation", "Classic English literature", "Culture", "Drama", "Film studies", "Literature", "Music", "Philosophy", "Poetry", "Religious studies", "Shakespeare studies", "Theater studies", "World literature", "Business", "Human Resource Management", "Investments", "Management", "Marketing", "C++", "Communication", "Java programming", "Linear programming", "Programming", "Accounting", "Economics", "Finance", "Engineering", "Geology", "Technology", "History", "Political science", "World affairs", "English", "Criminal Law", "Law", "Anthropology", "Astronomy", "Biochemistry", "Biology", "Chemistry", "Ecology", "Environmental studies", "Genetics", "Geography", "Medicine", "Nursing", "Physics", "Mathematics", "MATLAB", "SPSS", "Statistics", "Civics", "Cognitive Science", "Criminology", "Education", "Family and consumer science", "Health", "Journalism", "Psychology", "Sociology", "Women and gender studies",
         };
-        String subjectList = subjectChoose[va];
+      //  String subjectList = subjectChoose[va];
         String[] paper_typeChoose = {"Admission essay", "Article review", "Article", "Dissertation proposal", "Dissertation", "Essay", "Research paper", "Research proposal", "Term paper", "Thesis", "Other", "Business plan", "Business feasibility plan", "Investor business plan", "One-page business plan", "Operations business plan", "Start-up Business Plan", "Scholarship essay", "Admission essay", "Application letter", "Personal statement", "Business School application essay", "Graduate School application essay", "Law School application essay", "MBA admission essay", "MBA application essay", "Medical School application essay", "Study abroad application essay", "Cover letter", "Military cover letter", "Referral cover letter", "Cold-contact cover letter", "Entry level cover letter", "Executive cover letter", "Internship cover letter", "CV", "Academic CV", "Executive CV", "Internship CV", "Military CV", "Dissertation", "Dissertation abstract", "Dissertation chapter", "Dissertation conclusion", "Dissertation hypothesis", "Dissertation introduction", "Dissertation methodology", "Dissertation proposal", "Dissertation results", "Dissertation discussion", "Literature review", "Annotated bibliography", "Argumentative essay", "Course work", "Creative writing", "Essay", "Literature review", "Presentation", "Report", "OtherEssay", "Analytical essay", "Cause and Effect essay", "Comparative essay", "Compare and contrast essay", "Creative writing essay", "Deductive essay", "Definition essay", "Descriptive essay", "Exploratory essay", "Expository essay", "Informal essay", "Literary essay", "Literature essay", "MBA essay", "Military essay", "Narrative essay", "Persuasive essay", "Reflective essay", "Response essay", "Short essay", "Algebra homework help", "College homework help", "English homework help", "Homework for kids", "Maths homework help", "School homework help (middle & high)", "Science homework help", "Article", "Biography", "Case study", "Critical thinking", "Term paper", "Multiple choice questions", "Annotated bibliography", "Book critique", "Capstone project", "Coursework", "Critical analysis", "Grant proposal", "Journal critique", "Powerpoint presentation", "Problem solution", "Reaction paper", "Speech", "Other", "Problem solving", "Lab report", "Business report", "Engineering report", "Experience report", "Feasibility report", "Formal report", "Investigation report", "Policy report", "Progress report", "Research report", "Science report", "Short report", "Technical report", "Workplace report", "Research paper", "Research proposal", "Research thesis", "Research outline", "Research summary", "Resume", "Chronological resume", "Combination (combined) resume", "Entry level resume", "Functional resume", "Internship resume", "Military resume", "Article review", "Book review", "Movie review", "Critical appraisal", "Critical review", "Meta-analysis", "Peer review", "Systematic review", "Thesis", "Thesis proposal", "Thesis statement", "Analytical thesis statement", "Project thesis", "Thesis abstract", "Thesis conclusion", "Thesis discussion", "Thesis introduction", "Thesis methodology",
         };
-        String paper_typeList = paper_typeChoose[vb];
+      //  String paper_typeList = paper_typeChoose[vb];
 
 
 
@@ -287,8 +287,8 @@ public class WebDriverSettings   {
 
         // вторая страница
 
-        Select level = new Select(driver.findElement(By.name("academic_level")));
-        level.selectByIndex(2);
+      //  Select level = new Select(driver.findElement(By.name("academic_level")));
+      //  level.selectByIndex(2);
         //   driver.findElement(oNSteps3NumberOfPages).sendKeys(x + "");
         //   driver.findElement(oNSteps3NumberOfProblem).sendKeys(y + "");
         driver.findElement(oNSteps3NumberOfQuestions).sendKeys(z + "");
@@ -299,7 +299,7 @@ public class WebDriverSettings   {
         JavascriptExecutor jse = (JavascriptExecutor) driver;
         jse.executeScript("scroll(0, 550);");
         TimeUnit.SECONDS.sleep(4);
- //       Registered.pay(driver).click();
+        Registered.pay(driver).click();
 //        Registered.pay(driver).click();
         TimeUnit.SECONDS.sleep(5);
         /*TimeUnit.SECONDS.sleep(10);
