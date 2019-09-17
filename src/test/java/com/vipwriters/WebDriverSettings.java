@@ -318,7 +318,8 @@ public class WebDriverSettings   {
 
     }
     public void TestFileDrop() throws Exception {
-        setClipboardData("\\Test.docx");
+       // setClipboardData("\\Test.docx");
+        setClipboardData("C:\\Users\\Administrator\\Desktop\\Test.docx");
         Robot robot = new Robot();
         robot.keyPress(KeyEvent.VK_CONTROL);
         robot.keyPress(KeyEvent.VK_V);
@@ -352,7 +353,7 @@ public class WebDriverSettings   {
     Random r = new Random();
     int x = r.nextInt(90000) + 1;
     int v = r.nextInt( 300) + 1;
-    int z = r.nextInt(4) + 1;
+    int z = r.nextInt(3);
     int va = r.nextInt(50);
     int vb = r.nextInt(100);
      String regmail = x + "test@test.com";

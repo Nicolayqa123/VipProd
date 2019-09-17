@@ -80,6 +80,8 @@ public class ContactFormTest extends WebDriverSettings {
         jse.executeScript("scroll(0, 900);");
         ContacteUs.messageText(driver).sendKeys("Testeeeeeeeee");
         jse.executeScript("scroll(0, 2100);");
+        TimeUnit.SECONDS.sleep(2);
+        driver.findElementByCssSelector(".cookies-notification-close").click();
         ContacteUs.send(driver).click();
         TimeUnit.SECONDS.sleep(4);
         assertTrue( driver.findElement(By.xpath("//*[@id=\"toast-container\"]")).getText().contains("Your message has been sent succesfully!"));

@@ -92,6 +92,7 @@ public class CheckStepsOfSupportTest extends WebDriverSettings {
         DetailedOrder.fileRecipientClient(driver).click();
         DetailedOrder.fileTypeFinal(driver).click();
         DetailedOrder.drop(driver).click();
+        DetailedOrder.drop(driver).click();
         TestFileDrop();
         //   JavascriptExecutor jse = (JavascriptExecutor) driver;
         jse.executeScript("scroll(0, 350);");

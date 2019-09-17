@@ -22,7 +22,6 @@ public class test404UrlTest extends WebDriverSettings {
 
 
 
-    @Test
     public void Check404andHref () throws InterruptedException {
         driver.get("https://pro-papers.com/bh/algebra-homework-help");
         CheckTitle_bn();
@@ -451,7 +450,6 @@ public class test404UrlTest extends WebDriverSettings {
 
 
     }
-
 
     public static void main(String[] args) {
 

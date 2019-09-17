@@ -70,8 +70,8 @@ public class NewOpderTest extends WebDriverSettings {
 
         // вторая страница
 
-        Select level = new Select(driver.findElement(By.name("academic_level")));
-        level.selectByIndex(2);
+        /*Select level = new Select(driver.findElement(By.name("academic_level")));
+        level.selectByIndex(2);*/
      //   driver.findElement(oNSteps3NumberOfPages).sendKeys(x + "");
      //   driver.findElement(oNSteps3NumberOfProblem).sendKeys(y + "");
         driver.findElement(oNSteps3NumberOfQuestions).sendKeys(z + "");
