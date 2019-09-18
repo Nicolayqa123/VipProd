@@ -80,7 +80,7 @@ public class WebDriverSettings   {
 
     public String mailPro = "Nicolayqa@gmail.com";
     public String passPro = "123456";
-    public String mail = "Nicolayqa@gmail.com"; // Nicolayqa@gmail.com
+    public String mail = "nicolayqa@gmail.com"; // Nicolayqa@gmail.com
     public String pass = "123456";
     public String Writer_StageUrl = "https://writer.urgentpapers.org";
     public String Writer_ProdUrl = "https://vip-writers.com";
