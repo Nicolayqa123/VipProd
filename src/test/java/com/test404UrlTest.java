@@ -476,8 +476,8 @@ public class test404UrlTest extends WebDriverSettings {
             driver.get("https://client.urgentpapers.org" + pages);
             String Title = driver.getTitle();
 
-            if (Title.contains("404")){
-                System.out.println(driver.getCurrentUrl() + pages + "--" + Title);
+            if (Title.contains("Whoops! There was an error.")){
+                System.out.println(driver.getCurrentUrl());
             }
 
             List<WebElement> links = driver.findElements(By.tagName("link"));
