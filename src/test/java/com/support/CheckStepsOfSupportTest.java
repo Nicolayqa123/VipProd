@@ -29,8 +29,6 @@ public class CheckStepsOfSupportTest extends WebDriverSettings {
         TimeUnit.SECONDS.sleep(15);
         String number = driver.findElementByCssSelector(".order-h3 > span:nth-child(1)").getText();
         System.out.println(number);
-      //  driver.manage().window().maximize();
-
         //  String number = "46913";
         System.out.println(number);
 
@@ -91,9 +89,7 @@ public class CheckStepsOfSupportTest extends WebDriverSettings {
         DetailedOrder.uploadFile(driver).click();
         DetailedOrder.fileRecipientClient(driver).click();
         DetailedOrder.fileTypeFinal(driver).click();
-        DetailedOrder.drop(driver).click();
-        DetailedOrder.drop(driver).click();
-        TestFileDrop();
+        DetailedOrder.drop(driver).sendKeys("C:\\Users\\Administrator\\Desktop\\Test.docx");
         //   JavascriptExecutor jse = (JavascriptExecutor) driver;
         jse.executeScript("scroll(0, 350);");
         TimeUnit.SECONDS.sleep(2);

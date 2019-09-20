@@ -239,7 +239,7 @@ public class WebDriverSettings   {
 
 
     public void SupportLogin() throws Exception {
-        driver.get("https://adminpanel.urgentpapers.org/");
+        driver.get("https://support.urgentpapers.org");
         driver.findElementByCssSelector("div.form-group:nth-child(1) > div:nth-child(1) > div:nth-child(1) > input:nth-child(1)").sendKeys("boosters@test.com");
         driver.findElementByCssSelector("div.form-group:nth-child(2) > div:nth-child(1) > div:nth-child(1) > input:nth-child(1)").sendKeys("ZdPJTNrNkH");
         driver.findElementByCssSelector(".btn").click();
@@ -278,8 +278,8 @@ public class WebDriverSettings   {
         Registered.paper_type(driver).sendKeys(paper_typeChoose[vb]);
         Registered.subject(driver).sendKeys(subjectChoose[va]);
         Registered.topic(driver).sendKeys("Test order Test");
-        Select paper_format = new Select(driver.findElement(By.name("paper_format")));
-        paper_format.selectByValue(String.valueOf(z));
+    //    Select paper_format = new Select(driver.findElement(By.name("paper_format")));
+    //    paper_format.selectByValue(String.valueOf(z));
 //      Registered.number_of_references(driver).sendKeys("" + b);
         Registered.paper_details(driver).sendKeys("Test test test tes tes ");
         Registered.nextStep(driver).click();

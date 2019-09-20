@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30a5b001-07cb-452b-a9d5-7ea217301538" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageWriter/DetailedOrder.java" afterPath="$PROJECT_DIR$/src/test/java/com/PageWriter/DetailedOrder.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/support/CheckStepsOfSupportTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/support/CheckStepsOfSupportTest.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/support/CheckStepsOfSupportTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/support/CheckStepsOfSupportTest.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test404UrlTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/test404UrlTest.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/WebDriverSettings.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/WebDriverSettings.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,31 +21,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="WebDriverSettings.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WebDriverSettings.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="82" column="32" lean-forward="true" selection-start-line="82" selection-start-column="32" selection-end-line="82" selection-end-column="32" />
+            <state relative-caret-position="147">
+              <caret line="281" column="6" lean-forward="false" selection-start-line="281" selection-start-column="6" selection-end-line="281" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BannerTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/BannerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="35" column="17" lean-forward="false" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CheckStepsOfSupportTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CheckStepsOfSupportTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/support/CheckStepsOfSupportTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1680">
-              <caret line="95" column="23" lean-forward="false" selection-start-line="95" selection-start-column="23" selection-end-line="95" selection-end-column="23" />
+            <state relative-caret-position="252">
+              <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -48,8 +44,18 @@
       <file leaf-file-name="DetailedOrder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/PageWriter/DetailedOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="33" column="29" lean-forward="false" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+            <state relative-caret-position="303">
+              <caret line="34" column="52" lean-forward="false" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderStatus.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/PageSupport/OrderStatus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="924">
+              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -98,7 +104,7 @@
       <file leaf-file-name="test404UrlTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/test404UrlTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
+            <state relative-caret-position="315">
               <caret line="455" column="32" lean-forward="false" selection-start-line="455" selection-start-column="32" selection-end-line="455" selection-end-column="32" />
               <folding>
                 <element signature="method#Check404andHref#0;class#test404UrlTest#0" expanded="false" />
@@ -110,7 +116,7 @@
       <file leaf-file-name="CheckTitle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Regression/CheckTitle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
+            <state relative-caret-position="9912">
               <caret line="475" column="71" lean-forward="false" selection-start-line="475" selection-start-column="71" selection-end-line="475" selection-end-column="71" />
               <folding>
                 <element signature="method#CheckTitledk#0;class#CheckTitle#0" expanded="false" />
@@ -178,7 +184,6 @@
         <option value="$PROJECT_DIR$/src/test/java/com/PageClient/Order_Sign_Up.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Pro_Papers/RegisteredStep.java" />
         <option value="$PROJECT_DIR$/src/test/java/Regression/CheckTitle.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/PageWriter/DetailedOrder.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/support/CheckStepsOfSupport.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Pro_Papers/Robot_TxtTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Robot_TxtTest.java" />
@@ -197,8 +202,9 @@
         <option value="$PROJECT_DIR$/src/test/java/com/Pro_Papers/NewOpderTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/ContactFormTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Pro_Papers/ForgotPasswordTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/support/CheckStepsOfSupportTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/test404UrlTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/PageWriter/DetailedOrder.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/support/CheckStepsOfSupportTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" />
       </list>
     </option>
@@ -234,10 +240,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -320,6 +323,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -355,7 +361,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.test404UrlTest.testURL">
+  <component name="RunManager" selected="JUnit.CheckStepsOfSupportTest.stepsSupport">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -565,11 +571,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.test404UrlTest.testURL" />
-        <item index="1" class="java.lang.String" itemvalue="Application.test404UrlTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ContactFormTest.ContactFormRequiredField" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ForgotPasswordTest.forgotPasswordWrongmail" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CheckStepsOfSupportTest.stepsSupport" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CheckStepsOfSupportTest.stepsSupport" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.test404UrlTest.testURL" />
+        <item index="2" class="java.lang.String" itemvalue="Application.test404UrlTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ContactFormTest.ContactFormRequiredField" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ForgotPasswordTest.forgotPasswordWrongmail" />
       </list>
     </recent_temporary>
   </component>
@@ -633,28 +639,30 @@
       <workItem from="1568374489213" duration="7050000" />
       <workItem from="1568623362549" duration="5969000" />
       <workItem from="1568709189751" duration="9562000" />
-      <workItem from="1568791774447" duration="2569000" />
+      <workItem from="1568791774447" duration="4961000" />
+      <workItem from="1568875594316" duration="1693000" />
+      <workItem from="1568969499840" duration="760000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CheckStepsOfSupportTest_stepsSupport - 2019.09.17 at 11h 41m 34s.xml">
+    <history-entry file="CheckStepsOfSupportTest_stepsSupport - 2019.09.18 at 17h 41m 47s.xml">
       <configuration name="CheckStepsOfSupportTest.stepsSupport" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckStepsOfSupportTest_stepsSupport - 2019.09.17 at 11h 45m 47s.xml">
+    <history-entry file="CheckStepsOfSupportTest_stepsSupport - 2019.09.18 at 17h 42m 30s.xml">
       <configuration name="CheckStepsOfSupportTest.stepsSupport" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckStepsOfSupportTest_stepsSupport - 2019.09.17 at 11h 49m 02s.xml">
+    <history-entry file="CheckStepsOfSupportTest_stepsSupport - 2019.09.18 at 17h 46m 04s.xml">
       <configuration name="CheckStepsOfSupportTest.stepsSupport" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckStepsOfSupportTest_stepsSupport - 2019.09.17 at 12h 05m 07s.xml">
+    <history-entry file="CheckStepsOfSupportTest_stepsSupport - 2019.09.18 at 17h 47m 43s.xml">
       <configuration name="CheckStepsOfSupportTest.stepsSupport" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContactFormTest_ContactFormRequiredField - 2019.09.17 at 14h 27m 59s.xml">
-      <configuration name="ContactFormTest.ContactFormRequiredField" configurationId="JUnit" />
+    <history-entry file="CheckStepsOfSupportTest_stepsSupport - 2019.09.18 at 17h 48m 46s.xml">
+      <configuration name="CheckStepsOfSupportTest.stepsSupport" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ForgotPasswordTest_forgotPasswordWrongmail - 2019.09.17 at 14h 25m 02s.xml">
-      <configuration name="ForgotPasswordTest.forgotPasswordWrongmail" configurationId="JUnit" />
+    <history-entry file="CheckStepsOfSupportTest_stepsSupport - 2019.09.18 at 17h 51m 27s.xml">
+      <configuration name="CheckStepsOfSupportTest.stepsSupport" configurationId="JUnit" />
     </history-entry>
     <history-entry file="WebDriverSettings_LoginNewInquiry - 2019.09.16 at 12h 38m 27s.xml">
       <configuration name="WebDriverSettings.LoginNewInquiry" configurationId="JUnit" />
@@ -670,7 +678,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179139000" />
+    <option name="totallyTimeSpent" value="183984000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -683,19 +691,19 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.336374" sideWeight="0.5021482" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33523375" sideWeight="0.49785176" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33523375" sideWeight="0.49785176" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27336198" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28141782" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990878" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990878" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -924,13 +932,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/PageSupport/OrderStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="777">
-          <caret line="39" column="46" lean-forward="false" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/Payments/PaymentsSearchTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -995,14 +996,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/PageWriter/DetailedOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="33" column="29" lean-forward="false" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/BannerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
@@ -1043,17 +1036,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/support/CheckStepsOfSupportTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1680">
-          <caret line="95" column="23" lean-forward="false" selection-start-line="95" selection-start-column="23" selection-end-line="95" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/test404UrlTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
+        <state relative-caret-position="315">
           <caret line="455" column="32" lean-forward="false" selection-start-line="455" selection-start-column="32" selection-end-line="455" selection-end-column="32" />
           <folding>
             <element signature="method#Check404andHref#0;class#test404UrlTest#0" expanded="false" />
@@ -1063,7 +1048,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Regression/CheckTitle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
+        <state relative-caret-position="9912">
           <caret line="475" column="71" lean-forward="false" selection-start-line="475" selection-start-column="71" selection-end-line="475" selection-end-column="71" />
           <folding>
             <element signature="method#CheckTitledk#0;class#CheckTitle#0" expanded="false" />
@@ -1072,10 +1057,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/PageSupport/OrderStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/PageWriter/DetailedOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="34" column="52" lean-forward="false" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="82" column="32" lean-forward="true" selection-start-line="82" selection-start-column="32" selection-end-line="82" selection-end-column="32" />
+        <state relative-caret-position="147">
+          <caret line="281" column="6" lean-forward="false" selection-start-line="281" selection-start-column="6" selection-end-line="281" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/support/CheckStepsOfSupportTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
           <folding />
         </state>
       </provider>
