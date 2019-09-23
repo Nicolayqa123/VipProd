@@ -11,6 +11,7 @@ import java.util.concurrent.TimeUnit;
 import static org.junit.Assert.*;
 
 public class ForgotPasswordTest extends WebDriverSettings {
+   @Test
     public void forgotPassword1() throws InterruptedException {
         driver.get(ProPapers_ProdUrl);
 

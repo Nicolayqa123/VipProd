@@ -13,7 +13,7 @@ import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 public class ForgotPasswordTest extends WebDriverSettings {
-
+@Test
     public void forgotpassword() throws Exception{
 
         driver.get(Writer_ProdUrl);
