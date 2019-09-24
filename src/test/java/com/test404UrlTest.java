@@ -683,7 +683,7 @@ public class test404UrlTest extends WebDriverSettings {
 
 
             // String pages = page[x];
-            driver.get("https://client.urgentpapers.org" + page[x]);
+            driver.get(ProPapers_ProdUrl + page[x]);
             String Title = driver.getTitle();
             if (Title.contains("Whoops! There was an error." ) || (Title.contains("404 Page Not Found - Pro-papers" ))){
                 System.out.println(driver.getCurrentUrl() + "  ---  " + Title);
