@@ -28,7 +28,7 @@ public class SignUp {
         return element;
     }
     public static WebElement aboutMe (WebDriver driver){
-        element = driver.findElement(By.id("about_me"));
+        element = driver.findElement(By.id("words_about"));
         return element;
     }
     public static WebElement next (WebDriver driver){
@@ -40,7 +40,7 @@ public class SignUp {
         return element;
     }
     public static WebElement altEmail (WebDriver driver){
-        element = driver.findElement(By.name("alt_email"));
+        element = driver.findElement(By.name("altEmail"));
         return element;
     }
     public static WebElement cityName (WebDriver driver){
@@ -97,7 +97,7 @@ public class SignUp {
         return element;
     }
     public static WebElement altPhone (WebDriver driver){
-        element = driver.findElement(By.id("alter_phone"));
+        element = driver.findElement(By.id("alterPhone"));
         return element;
     }
 

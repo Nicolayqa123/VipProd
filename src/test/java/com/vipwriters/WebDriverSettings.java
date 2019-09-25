@@ -388,8 +388,8 @@ public class WebDriverSettings   {
         Registered.paper_type(driver).sendKeys(paper_typeChoose[vb]);
         Registered.subject(driver).sendKeys(subjectChoose[va]);
         Registered.topic(driver).sendKeys("Test order Test");
-        Select paper_format = new Select(driver.findElement(By.name("paper_format")));
-        paper_format.selectByValue(String.valueOf(z));
+       /* Select paper_format = new Select(driver.findElement(By.name("paper_format")));
+        paper_format.selectByValue(String.valueOf(z));*/
 //      Registered.number_of_references(driver).sendKeys("" + b);
         Registered.paper_details(driver).sendKeys("Test test test tes tes ");
         Registered.nextStep(driver).click();
@@ -397,8 +397,8 @@ public class WebDriverSettings   {
 
         // вторая страница
 
-        Select level = new Select(driver.findElement(By.name("academic_level")));
-        level.selectByIndex(2);
+        /*Select level = new Select(driver.findElement(By.name("academic_level")));
+        level.selectByIndex(2);*/
         //   driver.findElement(oNSteps3NumberOfPages).sendKeys(x + "");
         //   driver.findElement(oNSteps3NumberOfProblem).sendKeys(y + "");
         driver.findElement(oNSteps3NumberOfQuestions).sendKeys(z + "");
