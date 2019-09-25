@@ -78,7 +78,7 @@ public class WebDriverSettings   {
     // String pass = "nicolayqa";
 
 
-    public String mailPro = "Nicolayqa@gmail.com";
+    public String mailPro = "nicolayqa@gmail.com";
     public String passPro = "123456";
     public String mail = "nicolayqa@gmail.com"; // Nicolayqa@gmail.com
     public String pass = "123456";
@@ -271,7 +271,7 @@ public class WebDriverSettings   {
 
 
         LoginPap();
-
+        TimeUnit.SECONDS.sleep(5);
         driver.findElementByCssSelector(".top-buttons-block > a:nth-child(2)").click();
         // driver.get("https://Pro-Papers.com/order");
         //  Lending.Order_Now(driver).click();

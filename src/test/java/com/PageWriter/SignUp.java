@@ -12,15 +12,15 @@ public class SignUp {
         return element;
     }
     public static WebElement firsName (WebDriver driver){
-        element = driver.findElement(By.name("firstName"));
+        element = driver.findElement(By.name("first_name"));
         return element;
     }
     public static WebElement lastName (WebDriver driver){
-        element = driver.findElement(By.name("lastName"));
+        element = driver.findElement(By.name("last_name"));
         return element;
     }
     public static WebElement language (WebDriver driver){
-        element = driver.findElement(By.name("languageSpoken"));
+        element = driver.findElement(By.name("language_spoken"));
         return element;
     }
     public static WebElement genderMale (WebDriver driver){
@@ -28,7 +28,7 @@ public class SignUp {
         return element;
     }
     public static WebElement aboutMe (WebDriver driver){
-        element = driver.findElement(By.id("aboutMe"));
+        element = driver.findElement(By.id("about_me"));
         return element;
     }
     public static WebElement next (WebDriver driver){
@@ -36,15 +36,15 @@ public class SignUp {
         return element;
     }
     public static WebElement primaryEmail (WebDriver driver){
-        element = driver.findElement(By.name("primaryEmail"));
+        element = driver.findElement(By.name("primary_email"));
         return element;
     }
     public static WebElement altEmail (WebDriver driver){
-        element = driver.findElement(By.name("altEmail"));
+        element = driver.findElement(By.name("alt_email"));
         return element;
     }
     public static WebElement cityName (WebDriver driver){
-        element = driver.findElement(By.name("cityName"));
+        element = driver.findElement(By.name("city_name"));
         return element;
     }
 
@@ -53,11 +53,11 @@ public class SignUp {
         return element;
     }
     public static WebElement specialization (WebDriver driver){
-        element = driver.findElement(By.name("univerSpec"));
+        element = driver.findElement(By.name("univer_spec"));
         return element;
     }
     public static WebElement styles (WebDriver driver){
-        element = driver.findElement(By.xpath("//*[@id=\"citationStyleIds\"]/li[3]/label/input"));
+        element = driver.findElement(By.xpath("//*[@id=\"citation_style_ids\"]/li[4]/label/input"));
         return element;
     }
     public static WebElement newpass (WebDriver driver){
@@ -69,7 +69,7 @@ public class SignUp {
         return element;
     }
     public static WebElement iHaveRead (WebDriver driver){
-        element = driver.findElement(By.xpath("//*[@id=\"signUpWizard\"]/div[2]/div/div/section/div/div[1]/div[4]/div/label/input"));
+        element = driver.findElement(By.name("readTCs"));
         return element;
     }
     public static WebElement finish (WebDriver driver){
@@ -93,11 +93,11 @@ public class SignUp {
         return element;
     }
     public static WebElement academicDegree (WebDriver driver){
-        element = driver.findElement(By.xpath("//*[@id=\"highestVerifiableDegree\"]/option[3]"));
+        element = driver.findElement(By.xpath("//*[@id=\"highest_verifiable_degree\"]/option[4]"));
         return element;
     }
     public static WebElement altPhone (WebDriver driver){
-        element = driver.findElement(By.id("alterPhone"));
+        element = driver.findElement(By.id("alter_phone"));
         return element;
     }
 

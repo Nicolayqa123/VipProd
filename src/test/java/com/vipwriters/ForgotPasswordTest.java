@@ -26,9 +26,11 @@ public class ForgotPasswordTest extends WebDriverSettings {
   //  Assert.assertTrue("The password reset link was sent to your email. Please click it to change your password.\n" +
   //          "If you can’t find this link, please contact us at manager@vip-writers.com." ,driver.findElement(By.xpath("//*[@id=\"sendResetPasswordEmailForm\"]/p")).getText().contentEquals("The password reset link was sent to your email. Please click it to change your password.\n" +
   //          "If you can’t find this link, please contact us at manager@vip-writers.com."));
-    Assert.assertEquals("The password reset link was sent to your email. Please click it to change your password.\n" +
-            "If you can’t find this link, please contact us at manager@vip-writers.com." ,driver.findElement(By.xpath("//*[@id=\"sendResetPasswordEmailForm\"]/p")).getText());
-    }
+  //  Assert.assertEquals("The password reset link was sent to your email. Please click it to change your password.\n" +
+  //          "If you can’t find this link, please contact us at manager@vip-writers.com." ,driver.findElement(By.xpath("//*[@id=\"sendResetPasswordEmailForm\"]/p")).getText());
+    Assert.assertFalse("The password reset link was sent to your email. Please click it to change your password.", Boolean.parseBoolean(driver.findElementByXPath("//*[@id=\"sendResetPasswordEmailForm\"]/p").getText()));
+
+}
 
 
     @Test
