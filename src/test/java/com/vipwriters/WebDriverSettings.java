@@ -301,7 +301,7 @@ public class WebDriverSettings   {
         TimeUnit.SECONDS.sleep(4);
         Registered.pay(driver).click();
 //        Registered.pay(driver).click();
-        TimeUnit.SECONDS.sleep(5);
+        TimeUnit.SECONDS.sleep(10);
         /*TimeUnit.SECONDS.sleep(10);
       String IdOrder = driver.findElementByCssSelector(".order-h3 > span:nth-child(1)").getText();
       System.out.println(IdOrder);*/
