@@ -22,7 +22,7 @@ public class BannerTest extends WebDriverSettings {
         TimeUnit.SECONDS.sleep(30);
         driver.findElementByCssSelector("#wl_custom_fields_holder > input").sendKeys(x + "testBanner@ya.ru");
         driver.findElementByCssSelector("#try_luck_btn").click();
-        TimeUnit.SECONDS.sleep(15);
+        TimeUnit.SECONDS.sleep(20);
         String sum_discount = driver.findElementByCssSelector("#root-container > div > div:nth-child(1) > div > div.wlo_panel.wlo_hidden1.wlo_gpuac > div.wlo_content.ed_flex.ed_flex_vert > div.wlo_form.wlo_gpuac.ed_flex_item.ed_flex.ed_flex_vert.ed_flex_center > div.wlo_thank_you.wlo_gpuac > div.wlo_title > span").getText();
         String code_discount = driver.findElementByCssSelector("#root-container > div > div:nth-child(1) > div > div.wlo_panel.wlo_hidden1.wlo_gpuac > div.wlo_content.ed_flex.ed_flex_vert > div.wlo_form.wlo_gpuac.ed_flex_item.ed_flex.ed_flex_vert.ed_flex_center > div.wlo_thank_you.wlo_gpuac > div:nth-child(7) > input").getAttribute("value");
         String sum = sum_discount.replaceAll("\\D+","");

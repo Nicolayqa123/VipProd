@@ -85,6 +85,7 @@ public class RegisteredFormJustRequiredFieldTest extends WebDriverSettings {
     @Test
     public void RegisteredFormAll() throws InterruptedException {
         driver.get(Writer_ProdUrl + "/signUp");
+        TimeUnit.SECONDS.sleep(3);
 
         SignUp.firsName(driver).sendKeys("Nicolay");
         SignUp.lastName(driver).sendKeys("QAtest");

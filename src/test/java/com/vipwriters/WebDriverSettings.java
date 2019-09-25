@@ -237,7 +237,6 @@ public class WebDriverSettings   {
     }
 
 
-
     public void SupportLogin() throws Exception {
         driver.get("https://adminpanel.urgentpapers.org");
         driver.findElementByCssSelector("div.form-group:nth-child(1) > div:nth-child(1) > div:nth-child(1) > input:nth-child(1)").sendKeys("boosters@test.com");
